@@ -8,7 +8,6 @@ namespace APS.Lib
     public class AssociationPhaidraAttribute : PhaidraAttribute
     {
         private const string CONST_organizationname = "organizationname";
-        private const string CONST_kug_org = "https://pid.phaidra.org/kug-org/";
 
         public override string Name => "Association";
 
@@ -47,7 +46,7 @@ namespace APS.Lib
 
                     if (idVal != null)
                     {
-                        associationObj.Add(new JProperty("skos:exactMatch", new JArray(CONST_kug_org + idVal.Value<string>())));
+                        associationObj.Add(new JProperty("skos:exactMatch", new JArray(idVal.Value<string>())));
                     }
                 }
                 associationArray.Add(associationObj);
