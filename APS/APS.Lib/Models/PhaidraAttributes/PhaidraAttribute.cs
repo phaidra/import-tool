@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Text;
 using System.Linq;
+using APS.Lib.Models.PhaidraAttributes;
 
 namespace APS.Lib
 {
@@ -85,6 +86,8 @@ namespace APS.Lib
                 //_phaidraAttributes.Add(new ObjectPhaidraAttribute("Provenance", "Provenance", "dcterms:provenance", "dcterms:ProvenanceStatement"));
                 _phaidraAttributes.Add(new PhaidraIdPhaidraAttribute());
                 _phaidraAttributes.Add(new OwnerPhaidraAttribute());
+                _phaidraAttributes.Add(new KeywordsAttribute());
+
 
                 var templatePhaidraAttributes = GetTemplatePhaidraAttributes();
 

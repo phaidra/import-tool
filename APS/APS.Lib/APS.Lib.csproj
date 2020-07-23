@@ -15,6 +15,9 @@
     <None Update="PhaidraAttributeFiles\AttributeTemplates\phaidra-attribute-template-edm-rights.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="PhaidraAttributeFiles\AttributeTemplates\x_phaidra-attribute-template-keyword.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="PhaidraAttributeFiles\AttributeTemplates\x_phaidra-attribute-template-roles-example.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

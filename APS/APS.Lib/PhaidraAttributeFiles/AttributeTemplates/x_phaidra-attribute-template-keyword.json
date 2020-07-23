@@ -1,0 +1,24 @@
+{
+  "template": {    
+    "@type": "skos:Concept",
+    "skos:prefLabel": [
+      {
+        "@value": ""
+      }
+    ]
+  },
+	  
+  "fields": [
+    {
+      "displayname": "Stichwort",
+      "path": "skos:prefLabel[0].@value"
+    }
+  ],
+  "predicates": [
+    {
+      "predicatename": "dce:subject",
+      "displayname": "Stichwort"
+
+    }
+  ]
+}
