@@ -1,0 +1,16 @@
+{
+  "template": "",
+  "fields": [
+    {
+      "displayname": "Vocab",
+      "path": "",
+      "parser":  ""
+    }
+  ],
+  "predicates": [
+    {
+      "predicatename": "edm:rights",
+      "displayname": "Lizenz"
+    }
+  ]
+}

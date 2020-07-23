@@ -1,0 +1,10 @@
+{
+  "Url": "https://services.phaidra-sandbox.univie.ac.at/api/",
+  "SearchEngineUrl": "https://app01.cc.univie.ac.at:8983/solr/phaidra_sandbox/",
+  "Username": "gutlebeni65",
+  "Password": "EXk2ZJ0Ful6SWxshMVjX",
+  "AutoLogon": true,
+  "CollectionRoot": "KUG",
+  "SimulateUpload": true,
+  "WriteDebugFiles": true
+}

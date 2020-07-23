@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "APS.Crawler": {
+      "commandName": "Project",
+      "commandLineArgs": "-rootDir=\"n:\"  -crawlSubDir=\".\\\\\" -csvPath=\"C:\\tmp\\APS\\CrawlerCsv_n2.csv\" -extensions=\"jpg;jpeg;txt\""
+    }
+  }
+}

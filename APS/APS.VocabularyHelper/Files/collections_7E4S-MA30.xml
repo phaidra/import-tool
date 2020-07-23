@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:dct="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/spec/" xmlns:void="http://rdfs.org/ns/void#" xmlns:iqvoc="http://try.iqvoc.net/schema#" xmlns="https://pid.phaidra.org/vocabulary/" xmlns:schema="https://pid.phaidra.org/vocabulary/schema#">
+  <rdf:Description rdf:about="https://pid.phaidra.org/vocabulary/7E4S-MA30">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+    <skos:prefLabel xml:lang="en">Resource type</skos:prefLabel>
+    <skos:definition xml:lang="en">The Resource type facet includes terms referring to the nature or genre of the resource in a technical sense. (Definition partly derived from DCMI Metadata Terms)</skos:definition>
+    <skos:member rdf:resource="https://pid.phaidra.org/vocabulary/44TN-P1S0"/>
+    <skos:member rdf:resource="https://pid.phaidra.org/vocabulary/69ZZ-2KGX"/>
+    <skos:member rdf:resource="https://pid.phaidra.org/vocabulary/B0Y6-GYT8"/>
+    <skos:member rdf:resource="https://pid.phaidra.org/vocabulary/7AVS-Y482"/>
+    <skos:member rdf:resource="https://pid.phaidra.org/vocabulary/8YB5-1M0J"/>
+    <skos:member rdf:resource="https://pid.phaidra.org/vocabulary/8MY0-BQDQ"/>
+    <skos:member rdf:resource="https://pid.phaidra.org/vocabulary/T8GH-F4V8"/>
+    <skos:member rdf:resource="https://pid.phaidra.org/vocabulary/GXS7-ENXJ"/>
+    <skos:member rdf:resource="https://pid.phaidra.org/vocabulary/GXS7-ENXJ"/>
+  </rdf:Description>
+</rdf:RDF>

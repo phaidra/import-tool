@@ -1,0 +1,131 @@
+﻿{
+  "dce:subject": [
+    {
+      "skos:prefLabel": [
+        {
+          "@language": "",
+          "@value": "Pen, Blue, Metal"
+        }
+      ],
+      "@type": "skos:Concept"
+    }
+  ],
+  "rdau:P60071": [
+    "2019-11-14"
+  ],
+  "ebucore:filename": [
+    "IMG_20191114_110940618[1].jpg"
+  ],
+  "dcterms:created": [
+    "2019-11-14"
+  ],
+  "dcterms:language": [
+    "deu"
+  ],
+  "role:pht": [
+    {
+      "schema:familyName": [
+        {
+          "@value": "Kumpfhuber"
+        }
+      ],
+      "skos:exactMatch": [
+        {
+          "@value": "Q12345",
+          "@type": "ids:wikidata"
+        }
+      ],
+      "schema:givenName": [
+        {
+          "@value": "Markus"
+        }
+      ],
+      "@type": "schema:Person"
+    }
+  ],
+  "dce:title": [
+    {
+      "bf:mainTitle": [
+        {
+          "@language": "deu",
+          "@value": "Pen"
+        }
+      ],
+      "bf:subtitle": [
+        {
+          "@language": "deu",
+          "@value": "Pen GS"
+        }
+      ],
+      "@type": "bf:Title"
+    }
+  ],
+  "ebucore:hasMimeType": [
+    "image/jpeg"
+  ],
+  "dcterms:type": [
+    {
+      "skos:prefLabel": [
+        {
+          "@language": "eng",
+          "@value": "image"
+        }
+      ],
+      "skos:exactMatch": [
+        "https://pid.phaidra.org/vocabulary/44TN-P1S0"
+      ],
+      "@type": "skos:Concept"
+    }
+  ],
+  "edm:hasType": [
+    {
+      "skos:prefLabel": [
+        {
+          "@language": "eng",
+          "@value": "photograph"
+        }
+      ],
+      "skos:exactMatch": [
+        "https://pid.phaidra.org/vocabulary/7CAB-P987"
+      ],
+      "@type": "skos:Concept"
+    }
+  ],
+  "bf:note": [
+    {
+      "skos:prefLabel": [
+        {
+          "@language": "",
+          "@value": "Blauer Stift"
+        }
+      ],
+      "@type": "bf:Note"
+    },
+    {
+      "skos:prefLabel": [
+        {
+          "@language": "",
+          "@value": "Test-Anmerkung"
+        }
+      ],
+      "@type": "phaidra:Remark"
+    }
+  ],
+  "dce:rights": [
+    {
+      "@language": "deu",
+      "@value": "Rechte liegen bei Markus Kumpfhuber"
+    }
+  ],
+  "dcterms:subject": [
+    {
+      "skos:exactMatch": [
+        "http://d-nb.info/gnd/4139467-7"
+      ],
+      "@type": "skos:Concept"
+    }
+  ],
+  "edm:rights": [
+    "http://rightsstatements.org/vocab/InC/1.0/"
+  ]
+}

@@ -1,0 +1,51 @@
+﻿<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:dg="clr-namespace:Avalonia.Controls;assembly=Avalonia.Controls.DataGrid"
+        mc:Ignorable="d" Width="500" Height="400"
+        x:Class="APS.UI.PhaidraFieldBrowserWindow"
+        Title="Phaidra Field Browser">
+  <Window.Resources>
+    <NameScope x:Key="namescope3"  />
+  </Window.Resources>
+  <Grid>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="Auto" />
+      <RowDefinition Height="Auto" />
+      <RowDefinition Height="*" />
+      <RowDefinition Height="Auto" />
+      <RowDefinition Height="Auto" />
+    </Grid.RowDefinitions>
+    <StackPanel Grid.Row="0" Orientation="Horizontal" >
+      <TextBlock Text="Select Phaidra Attribute Field for CSV column " FontSize="15" Margin="4,4,0,4" />
+      <TextBlock Text="{Binding CsvColumnName}" FontSize="15" Margin="0,4,4,4" />
+    </StackPanel>
+    <Grid Grid.Row="1" Margin="2">
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="*"/>
+      </Grid.ColumnDefinitions>
+      <Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+      </Grid.RowDefinitions>
+      <TextBlock Grid.Row="0" Grid.Column="0" Text="Filter: " VerticalAlignment="Center" />
+      <TextBox Grid.Row="0" Grid.Column="1" Text="{Binding FilterText}" ToolTip.Tip="Filter" Margin="0,0,0,4" Name="txtFilter" />
+      <TextBlock Grid.Row="1" Grid.Column="0" Text="System only: " VerticalAlignment="Center" />
+      <CheckBox Grid.Row="1" Grid.Column="2" IsChecked="{Binding IsSystemOnly}"/>
+    </Grid>
+    <ListBox Grid.Row="2" Items="{Binding Fields}" SelectedItem="{Binding SelectedField}" DoubleTapped="lstFields_DoubleTapped" Margin="2"  />
+    <StackPanel Grid.Row="3" Orientation="Horizontal" >
+      <Button Content="Duplicate Phaidra-Attribute" Command="{Binding DuplicatePhaidraAttributeCommand}" Margin="4" />
+    </StackPanel>
+    <Grid Grid.Row="4">
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="*" />
+        <ColumnDefinition Width="*" />
+      </Grid.ColumnDefinitions>
+      <Button Grid.Column="0" Content="Select" Command="{Binding SelectCommand}" Margin="4" />
+      <Button Grid.Column="1" Content="Clear" Command="{Binding ClearCommand}" Margin="4" />
+    </Grid>
+  </Grid>
+</Window>

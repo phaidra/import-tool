@@ -1,0 +1,1757 @@
+{
+  "template": {
+    "@type": "schema:Person",
+    "schema:givenName": [
+      {
+        "@value": ""
+      }
+    ],
+    "schema:familyName": [
+      {
+        "@value": ""
+      }
+    ],
+    "skos:exactMatch": [
+      {
+        "@type": "ids:wikidata",
+        "@value": ""
+      }
+    ],
+    "schema:affiliation": [
+      {
+        "@type": "schema:Organization",
+        "schema:name": [
+          {
+            "@value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "fields": [
+    {
+      "displayname": "Nachname",
+      "path": "schema:givenName[0].@value"
+    },
+    {
+      "displayname": "Vorname",
+      "path": "schema:familyName[0].@value"
+    },
+    {
+      "displayname": "Wikidata-ID",
+      "extendedfilter": [
+        {
+          "type": "select",
+          "path": "skos:exactMatch"
+        },
+        {
+          "type": "filterarray",
+          "attribute": "@type",
+          "value": "ids:wikidata"
+        },
+        {
+          "type": "select",
+          "path": "@value"
+        }
+      ]
+    },
+    {
+      "displayname": "Affiliation",
+      "path": "schema:affiliation[0].schema:name[0].@value"
+    }
+  ],
+  "predicates": [
+    {
+      "predicatename": "role:abr",
+      "eng": "Abridger",
+      "displayname": "Abridger",
+      "ita": "Abridger"
+    },
+    {
+      "predicatename": "role:act",
+      "eng": "Actor",
+      "displayname": "SchauspielerIn",
+      "ita": "Attore"
+    },
+    {
+      "predicatename": "role:adp",
+      "eng": "Adapter",
+      "displayname": "BearbeiterIn",
+      "ita": "Adattatore"
+    },
+    {
+      "predicatename": "role:rcp",
+      "eng": "Addressee",
+      "displayname": "AdressatIn",
+      "ita": "Destinatario"
+    },
+    {
+      "predicatename": "role:advisor",
+      "eng": "Adviser",
+      "displayname": "BetreuerIn",
+      "ita": "Consigliere"
+    },
+    {
+      "predicatename": "role:anl",
+      "eng": "Analyst",
+      "displayname": "DateninterpretIn",
+      "ita": "Analista"
+    },
+    {
+      "predicatename": "role:anm",
+      "eng": "Animator",
+      "displayname": "AnimatorIn",
+      "ita": "Animator"
+    },
+    {
+      "predicatename": "role:ann",
+      "eng": "Annotator",
+      "displayname": "AutorIn von Anmerkungen",
+      "ita": "Annotatore"
+    },
+    {
+      "predicatename": "role:apl",
+      "eng": "Appelant",
+      "displayname": "KlägerIn",
+      "ita": "Appelant"
+    },
+    {
+      "predicatename": "role:ape",
+      "eng": "Appellee",
+      "displayname": "Beklagte",
+      "ita": "Appellee"
+    },
+    {
+      "predicatename": "role:app",
+      "eng": "Applicant",
+      "displayname": "AntragstellerIn",
+      "ita": "Applicant"
+    },
+    {
+      "predicatename": "role:arc",
+      "eng": "Architect",
+      "displayname": "ArchitektIn",
+      "ita": "Architetto"
+    },
+    {
+      "predicatename": "role:arr",
+      "eng": "Arranger",
+      "displayname": "ArrangeurIn",
+      "ita": "Arrangiatore"
+    },
+    {
+      "predicatename": "role:acp",
+      "eng": "Art copyist",
+      "displayname": "KunstkopistIn",
+      "ita": "Art copyist"
+    },
+    {
+      "predicatename": "role:adi",
+      "eng": "Art director",
+      "displayname": "SzenenbildnerIn",
+      "ita": "Art director"
+    },
+    {
+      "predicatename": "role:art",
+      "eng": "Artist",
+      "displayname": "KünstlerIn",
+      "ita": "Artista"
+    },
+    {
+      "predicatename": "role:ard",
+      "eng": "Artistic director",
+      "displayname": "künstlerische/r LeiterIn",
+      "ita": "Direttore artistico"
+    },
+    {
+      "predicatename": "role:assessor",
+      "eng": "Assessor",
+      "displayname": "BeurteilerIn",
+      "ita": "Assessor"
+    },
+    {
+      "predicatename": "role:asg",
+      "eng": "Assignee",
+      "displayname": "RechtsnachfolgerIn",
+      "ita": "Assignee"
+    },
+    {
+      "predicatename": "role:asn",
+      "eng": "Associated name",
+      "displayname": "Assoziierter Name",
+      "ita": "Associated name"
+    },
+    {
+      "predicatename": "role:att",
+      "eng": "Attributed name",
+      "displayname": "zugeschriebene/r AutorIn",
+      "ita": "Nome attribuito"
+    },
+    {
+      "predicatename": "role:auc",
+      "eng": "Auctioneer",
+      "displayname": "AuktionatorIn",
+      "ita": "Auctioneer"
+    },
+    {
+      "predicatename": "role:aut",
+      "eng": "Author",
+      "displayname": "Autor",
+      "ita": "Author"
+    },
+    {
+      "predicatename": "role:aqt",
+      "eng": "Author in quotations or text abstracts",
+      "displayname": "AutorIn in Zitaten oder Zusammenfassungen",
+      "ita": "Author in quotations or text abstracts"
+    },
+    {
+      "predicatename": "role:aft",
+      "eng": "Author of afterword, colophon, etc.",
+      "displayname": "AutorIn des Nachworts, Kolophon…",
+      "ita": "Author of afterword, colophon, etc."
+    },
+    {
+      "predicatename": "role:aud",
+      "eng": "Author of dialog",
+      "displayname": "KommentatorIn",
+      "ita": "Autore del dialogo"
+    },
+    {
+      "predicatename": "role:aui",
+      "eng": "Author of introduction",
+      "displayname": "AutorIn der Einleitung",
+      "ita": "Autore dell'introduzione"
+    },
+    {
+      "predicatename": "role:authorofsubtitles",
+      "eng": "Author of subtitles",
+      "displayname": "AutorIn der Untertitel",
+      "ita": "Autore dei sottotitoli"
+    },
+    {
+      "predicatename": "role:ato",
+      "eng": "Autographer",
+      "displayname": "Unterzeichnende/r",
+      "ita": "Autographer"
+    },
+    {
+      "predicatename": "role:ant",
+      "eng": "Bibliographic antecedent",
+      "displayname": "ForscherIn",
+      "ita": "Antecedente bibliografico"
+    },
+    {
+      "predicatename": "role:bnd",
+      "eng": "Binder",
+      "displayname": "BuchbinderIn",
+      "ita": "Legatore"
+    },
+    {
+      "predicatename": "role:bdd",
+      "eng": "Binding designer",
+      "displayname": "Binde-DesignerIn",
+      "ita": "Binding designer"
+    },
+    {
+      "predicatename": "role:blw",
+      "eng": "Blurb writer (missing space)",
+      "displayname": "AutorIn des Klappentextes",
+      "ita": "Blurbwriter"
+    },
+    {
+      "predicatename": "role:bkd",
+      "eng": "Book designer",
+      "displayname": "DesignerIn des analogen Buches",
+      "ita": "Designer del libro"
+    },
+    {
+      "predicatename": "role:bkp",
+      "eng": "Book producer",
+      "displayname": "BuchproduzentIn",
+      "ita": "Book producer"
+    },
+    {
+      "predicatename": "role:bjd",
+      "eng": "Bookjacket designer",
+      "displayname": "DesignerIn des Buchumschlages / Schutzumschlages",
+      "ita": "Bookjacket designer"
+    },
+    {
+      "predicatename": "role:bpd",
+      "eng": "Bookplate designer",
+      "displayname": "DesignerIn des Exlibris",
+      "ita": "Creatore dell'ex-libris"
+    },
+    {
+      "predicatename": "role:bsl",
+      "eng": "Bookseller",
+      "displayname": "BuchhändlerIn",
+      "ita": "Bookseller"
+    },
+    {
+      "predicatename": "role:brl",
+      "eng": "Braille embosser",
+      "displayname": "BrailledruckerIn",
+      "ita": "Braille embosser"
+    },
+    {
+      "predicatename": "role:brd",
+      "eng": "Broadcaster",
+      "displayname": "RundfunksprecherIn",
+      "ita": "Broadcaster"
+    },
+    {
+      "predicatename": "role:cll",
+      "eng": "Calligrapher",
+      "displayname": "KalligraphIn",
+      "ita": "Calligrapher"
+    },
+    {
+      "predicatename": "role:ctg",
+      "eng": "Cartographer",
+      "displayname": "KartografIn",
+      "ita": "Cartografo"
+    },
+    {
+      "predicatename": "role:cas",
+      "eng": "Caster",
+      "displayname": "GießerIn",
+      "ita": "Caster"
+    },
+    {
+      "predicatename": "role:cns",
+      "eng": "Censor",
+      "displayname": "ZensorIn",
+      "ita": "Censor"
+    },
+    {
+      "predicatename": "role:chr",
+      "eng": "Choreographer",
+      "displayname": "ChoreographIn",
+      "ita": "Coreografo"
+    },
+    {
+      "predicatename": "role:cng",
+      "eng": "Cinematographer",
+      "displayname": "Kameramann/frau",
+      "ita": "Direttore della fotografia"
+    },
+    {
+      "predicatename": "role:cli",
+      "eng": "Client",
+      "displayname": "Client",
+      "ita": "Client"
+    },
+    {
+      "predicatename": "role:coadvisor",
+      "eng": "Co-Advisor",
+      "displayname": "MitbetreuerIn",
+      "ita": "Co-Advisor"
+    },
+    {
+      "predicatename": "role:cor",
+      "eng": "Collection registrar",
+      "displayname": "RegistratorIn",
+      "ita": "Collection registrar"
+    },
+    {
+      "predicatename": "role:col",
+      "eng": "Collector",
+      "displayname": "SammlerIn",
+      "ita": "Collezionista"
+    },
+    {
+      "predicatename": "role:clt",
+      "eng": "Collotyper",
+      "displayname": "LichtdruckerIn",
+      "ita": "Collotyper"
+    },
+    {
+      "predicatename": "role:clr",
+      "eng": "Colorist",
+      "displayname": "KoloristIn",
+      "ita": "Colorist"
+    },
+    {
+      "predicatename": "role:cmm",
+      "eng": "Commentator",
+      "displayname": "KommentatorIn / BerichterstatterIn",
+      "ita": "Commentator"
+    },
+    {
+      "predicatename": "role:cwt",
+      "eng": "Commentator for written text",
+      "displayname": "Autorin des Kommentars",
+      "ita": "Commentator for written text"
+    },
+    {
+      "predicatename": "role:com",
+      "eng": "Compiler",
+      "displayname": "HerausgeberIn einer Sammlung",
+      "ita": "Compilatore"
+    },
+    {
+      "predicatename": "role:cpl",
+      "eng": "Complainant",
+      "displayname": "Complainant",
+      "ita": "Complainant"
+    },
+    {
+      "predicatename": "role:cpt",
+      "eng": "Complainant-appellant",
+      "displayname": "Complainant-appellant",
+      "ita": "Complainant-appellant"
+    },
+    {
+      "predicatename": "role:cpe",
+      "eng": "Complainant-appellee",
+      "displayname": "Complainant-appellee",
+      "ita": "Complainant-appellee"
+    },
+    {
+      "predicatename": "role:cmp",
+      "eng": "Composer",
+      "displayname": "KomponistIn",
+      "ita": "Compositore"
+    },
+    {
+      "predicatename": "role:cmt",
+      "eng": "Compositor",
+      "displayname": "SchriftsetzerIn",
+      "ita": "Compositor"
+    },
+    {
+      "predicatename": "role:ccp",
+      "eng": "Conceptor",
+      "displayname": "KonzepterIn / KonzeptionstexterIn",
+      "ita": "Conceptor"
+    },
+    {
+      "predicatename": "role:cnd",
+      "eng": "Conductor",
+      "displayname": "KapellmeisterIn",
+      "ita": "Direttore d’orchestra"
+    },
+    {
+      "predicatename": "role:con",
+      "eng": "Conservator",
+      "displayname": "KonservatorIn",
+      "ita": "Conservator"
+    },
+    {
+      "predicatename": "role:csl",
+      "eng": "Consultant",
+      "displayname": "Fachliche Beratung / FachberaterIn",
+      "ita": "Consultant"
+    },
+    {
+      "predicatename": "role:csp",
+      "eng": "Consultant to a project",
+      "displayname": "ProjektberaterIn",
+      "ita": "Consultant to a project"
+    },
+    {
+      "predicatename": "role:cos",
+      "eng": "Contestant",
+      "displayname": "Contestant",
+      "ita": "Contestant"
+    },
+    {
+      "predicatename": "role:cot",
+      "eng": "Contestant-appellant",
+      "displayname": "Contestant-appellant",
+      "ita": "Contestant-appellant"
+    },
+    {
+      "predicatename": "role:coe",
+      "eng": "Contestant-appellee",
+      "displayname": "Contestant-appellee",
+      "ita": "Contestant-appellee"
+    },
+    {
+      "predicatename": "role:cts",
+      "eng": "Contestee",
+      "displayname": "Contestee",
+      "ita": "Contestee"
+    },
+    {
+      "predicatename": "role:ctt",
+      "eng": "Contestee-appellant",
+      "displayname": "Contestee-appellant",
+      "ita": "Contestee-appellant"
+    },
+    {
+      "predicatename": "role:cte",
+      "eng": "Contestee-appellee",
+      "displayname": "Contestee-appellee",
+      "ita": "Contestee-appellee"
+    },
+    {
+      "predicatename": "role:ctr",
+      "eng": "Contractor",
+      "displayname": "AuftragnehmerIn",
+      "ita": "Contractor"
+    },
+    {
+      "predicatename": "role:ctb",
+      "eng": "Contributor",
+      "displayname": "Beitragende/r",
+      "ita": "Contributor"
+    },
+    {
+      "predicatename": "role:copista",
+      "eng": "Copista",
+      "displayname": "Copista",
+      "ita": "Copista"
+    },
+    {
+      "predicatename": "role:cpc",
+      "eng": "Copyright claimant",
+      "displayname": "AntragestellerIn auf Copyright",
+      "ita": "Copyright claimant"
+    },
+    {
+      "predicatename": "role:cph",
+      "eng": "Copyright holder",
+      "displayname": "InhaberIn des Copyright",
+      "ita": "Copyright holder"
+    },
+    {
+      "predicatename": "role:crr",
+      "eng": "Corrector",
+      "displayname": "KorrektorIn",
+      "ita": "Corrector"
+    },
+    {
+      "predicatename": "role:crp",
+      "eng": "Correspondent",
+      "displayname": "KorrespondentIn",
+      "ita": "Correspondent"
+    },
+    {
+      "predicatename": "role:cst",
+      "eng": "Costume designer",
+      "displayname": "KostümbildnerIn",
+      "ita": "Costume designer"
+    },
+    {
+      "predicatename": "role:cou",
+      "eng": "Court governed",
+      "displayname": "Court governed",
+      "ita": "Court governed"
+    },
+    {
+      "predicatename": "role:crt",
+      "eng": "Court reporter",
+      "displayname": "GerichtsberichterstatterIn",
+      "ita": "Court reporter"
+    },
+    {
+      "predicatename": "role:cov",
+      "eng": "Cover designer",
+      "displayname": "DesignerIn der Hüller / Verpackung",
+      "ita": "Cover designer"
+    },
+    {
+      "predicatename": "role:cur",
+      "eng": "Curator",
+      "displayname": "KuratorIn",
+      "ita": "Curator"
+    },
+    {
+      "predicatename": "role:dnc",
+      "eng": "Dancer",
+      "displayname": "TänzerIn",
+      "ita": "Dancer"
+    },
+    {
+      "predicatename": "role:dtc",
+      "eng": "Data contributor",
+      "displayname": "DatenlieferantIn",
+      "ita": "Data contributor"
+    },
+    {
+      "predicatename": "role:dtm",
+      "eng": "Data manager",
+      "displayname": "DatenmanagerIn",
+      "ita": "Gestore di dati"
+    },
+    {
+      "predicatename": "role:datasupplier",
+      "eng": "Data Supplier",
+      "displayname": "DatenlieferantIn",
+      "ita": "Fornitore dei dati"
+    },
+    {
+      "predicatename": "role:dte",
+      "eng": "Dedicatee",
+      "displayname": "WidmungsträgerIn",
+      "ita": "Dedicatario"
+    },
+    {
+      "predicatename": "role:dto",
+      "eng": "Dedicator",
+      "displayname": "Widmende/r",
+      "ita": "Dedicante"
+    },
+    {
+      "predicatename": "role:dfd",
+      "eng": "Defendant",
+      "displayname": "Defendant",
+      "ita": "Defendant"
+    },
+    {
+      "predicatename": "role:dft",
+      "eng": "Defendant-appellant",
+      "displayname": "Defendant-appellant",
+      "ita": "Defendant-appellant"
+    },
+    {
+      "predicatename": "role:dfe",
+      "eng": "Defendant-appellee",
+      "displayname": "Defendant-appellee",
+      "ita": "Defendant-appellee"
+    },
+    {
+      "predicatename": "role:dgg",
+      "eng": "Degree granting institution",
+      "displayname": "Verleihende Institution",
+      "ita": "Istituzione che rilascia il titolo accademico"
+    },
+    {
+      "predicatename": "role:dgs",
+      "eng": "Degree supervisor",
+      "displayname": "Doktorvater / BetreuerIn einer Akademischen Abschlußarbeit",
+      "ita": "Degree supervisor"
+    },
+    {
+      "predicatename": "role:dln",
+      "eng": "Delineator",
+      "displayname": "ZeichnerIn",
+      "ita": "Delineator"
+    },
+    {
+      "predicatename": "role:dpc",
+      "eng": "Depicted",
+      "displayname": "abgebildet / Beschrieben",
+      "ita": "Depicted"
+    },
+    {
+      "predicatename": "role:dpt",
+      "eng": "Depositor",
+      "displayname": "Depositor",
+      "ita": "Depositor"
+    },
+    {
+      "predicatename": "role:dsr",
+      "eng": "Designer",
+      "displayname": "DesignerIn",
+      "ita": "Designer"
+    },
+    {
+      "predicatename": "role:digitiser",
+      "eng": "Digitiser",
+      "displayname": "DigitalisiererIn",
+      "ita": "Autore della digitalizzazione"
+    },
+    {
+      "predicatename": "role:drt",
+      "eng": "Director",
+      "displayname": "RegisseurIn",
+      "ita": "Director"
+    },
+    {
+      "predicatename": "role:dis",
+      "eng": "Dissertant",
+      "displayname": "DissertantIn",
+      "ita": "Tesista"
+    },
+    {
+      "predicatename": "role:dbp",
+      "eng": "Distribution place",
+      "displayname": "Vertriebsort",
+      "ita": "Distribution place"
+    },
+    {
+      "predicatename": "role:dst",
+      "eng": "Distributor",
+      "displayname": "RechteinhaberIn",
+      "ita": "Distributore"
+    },
+    {
+      "predicatename": "role:domainexpert",
+      "eng": "Domain Expert",
+      "displayname": "FachexpertIn",
+      "ita": "Esperto del settore"
+    },
+    {
+      "predicatename": "role:dnr",
+      "eng": "Donor",
+      "displayname": "StifterIn",
+      "ita": "Donatore"
+    },
+    {
+      "predicatename": "role:drm",
+      "eng": "Draftsman",
+      "displayname": "BauzeichnerIn / KonstruktionszeichnerIn / technische/r ZeichnerIn",
+      "ita": "Draftsman"
+    },
+    {
+      "predicatename": "role:dub",
+      "eng": "Dubious author",
+      "displayname": "zweifelhafte AutorIn",
+      "ita": "Autore incerto"
+    },
+    {
+      "predicatename": "role:edt",
+      "eng": "Editor",
+      "displayname": "EditorIn",
+      "ita": "Curatore"
+    },
+    {
+      "predicatename": "role:edc",
+      "eng": "Editor of compilation",
+      "displayname": "EditorIn der Zusammenstellung / des Sammelwerks",
+      "ita": "Editor of compilation"
+    },
+    {
+      "predicatename": "role:edm",
+      "eng": "Editor of moving image work",
+      "displayname": "Film-EditorIn",
+      "ita": "Editor of moving image work"
+    },
+    {
+      "predicatename": "role:elg",
+      "eng": "Electrician",
+      "displayname": "ElektrikerIn",
+      "ita": "Electrician"
+    },
+    {
+      "predicatename": "role:elt",
+      "eng": "Electrotyper",
+      "displayname": "Electrotyper",
+      "ita": "Electrotyper"
+    },
+    {
+      "predicatename": "role:enj",
+      "eng": "Enacting jurisdiction",
+      "displayname": "Verfügende / verordnende Jurisdiktion",
+      "ita": "Enacting jurisdiction"
+    },
+    {
+      "predicatename": "role:eng",
+      "eng": "Engineer",
+      "displayname": "IngenieurIn",
+      "ita": "Ingegnere"
+    },
+    {
+      "predicatename": "role:egr",
+      "eng": "Engraver",
+      "displayname": "GraveurIn",
+      "ita": "Incisore"
+    },
+    {
+      "predicatename": "role:etr",
+      "eng": "Etcher",
+      "displayname": "RadiererIn",
+      "ita": "Acquafortista"
+    },
+    {
+      "predicatename": "role:evaluator",
+      "eng": "Evaluator",
+      "displayname": "EvaluatorIn",
+      "ita": "Valutatore"
+    },
+    {
+      "predicatename": "role:exp",
+      "eng": "Expert",
+      "displayname": "ExpertIn / Sachverständige/r",
+      "ita": "Expert"
+    },
+    {
+      "predicatename": "role:fac",
+      "eng": "Facsimilist",
+      "displayname": "BearbeiterIn des Faksimile",
+      "ita": "Responsabile del facsimile"
+    },
+    {
+      "predicatename": "role:fld",
+      "eng": "Field director",
+      "displayname": "LeiterIn von Feldforschung",
+      "ita": "Field director"
+    },
+    {
+      "predicatename": "role:fmd",
+      "eng": "Film director",
+      "displayname": "FilmregisseurIn",
+      "ita": "Film director"
+    },
+    {
+      "predicatename": "role:fds",
+      "eng": "Film distributor",
+      "displayname": "Filmverleih",
+      "ita": "Film distributor"
+    },
+    {
+      "predicatename": "role:flm",
+      "eng": "Film editor",
+      "displayname": "Film-EditorIn",
+      "ita": "Responsabile del montaggio"
+    },
+    {
+      "predicatename": "role:fmp",
+      "eng": "Film producer",
+      "displayname": "FilmproduzentIn",
+      "ita": "Film producer"
+    },
+    {
+      "predicatename": "role:fmk",
+      "eng": "Filmmaker",
+      "displayname": "FilmemacherIn",
+      "ita": "Filmmaker"
+    },
+    {
+      "predicatename": "role:fpy",
+      "eng": "First party",
+      "displayname": "erste Vertragspartei",
+      "ita": "First party"
+    },
+    {
+      "predicatename": "role:frg",
+      "eng": "Forger",
+      "displayname": "KopistIn / FälscherIn",
+      "ita": "Forger"
+    },
+    {
+      "predicatename": "role:fmo",
+      "eng": "Former owner",
+      "displayname": "VorbesitzerIn",
+      "ita": "Precedente proprietario"
+    },
+    {
+      "predicatename": "role:founder",
+      "eng": "Founder",
+      "displayname": "GründerIn",
+      "ita": "Founder"
+    },
+    {
+      "predicatename": "role:fnd",
+      "eng": "Funder",
+      "displayname": "Funder",
+      "ita": "Funder"
+    },
+    {
+      "predicatename": "role:gis",
+      "eng": "Geographic information specialist",
+      "displayname": "Geographic information specialist",
+      "ita": "Field director"
+    },
+    {
+      "predicatename": "role:graphicdesigner",
+      "eng": "Graphic Designer",
+      "displayname": "GrafikdesignerIn",
+      "ita": "Grafico"
+    },
+    {
+      "predicatename": "role:hnr",
+      "eng": "Honoree",
+      "displayname": "Geehrte/r",
+      "ita": "Onorato"
+    },
+    {
+      "predicatename": "role:hst",
+      "eng": "Host",
+      "displayname": "GastgeberIn",
+      "ita": "Host"
+    },
+    {
+      "predicatename": "role:his",
+      "eng": "Host institution",
+      "displayname": "Gastgebende Institution",
+      "ita": "Host institution"
+    },
+    {
+      "predicatename": "role:ilu",
+      "eng": "Illuminator",
+      "displayname": "IlluminatorIn",
+      "ita": "Miniatore"
+    },
+    {
+      "predicatename": "role:ill",
+      "eng": "Illustrator",
+      "displayname": "IllustratorIn",
+      "ita": "Illustratore"
+    },
+    {
+      "predicatename": "role:initiator",
+      "eng": "Initiator",
+      "displayname": "InitiatorIn",
+      "ita": "Iniziatore"
+    },
+    {
+      "predicatename": "role:ins",
+      "eng": "Inscriber",
+      "displayname": "Widmende/r",
+      "ita": "Inscriber"
+    },
+    {
+      "predicatename": "role:itr",
+      "eng": "Instrumentalist",
+      "displayname": "InstrumentalistIn",
+      "ita": "Instrumentalist"
+    },
+    {
+      "predicatename": "role:interpreter",
+      "eng": "Interpreter",
+      "displayname": "InterpretIn",
+      "ita": "Interprete"
+    },
+    {
+      "predicatename": "role:ive",
+      "eng": "Interviewee",
+      "displayname": "InterviewpartnerIn",
+      "ita": "Intervistato"
+    },
+    {
+      "predicatename": "role:ivr",
+      "eng": "Interviewer",
+      "displayname": "InterviewerIn",
+      "ita": "Intervistatore"
+    },
+    {
+      "predicatename": "role:inv",
+      "eng": "Inventor",
+      "displayname": "ErfinderIn",
+      "ita": "Inventor"
+    },
+    {
+      "predicatename": "role:isb",
+      "eng": "Issuing body",
+      "displayname": "Issuing body",
+      "ita": "Issuing body"
+    },
+    {
+      "predicatename": "role:jud",
+      "eng": "Judge",
+      "displayname": "Judge",
+      "ita": "Judge"
+    },
+    {
+      "predicatename": "role:jug",
+      "eng": "Jurisdiction governed",
+      "displayname": "Jurisdiction governed",
+      "ita": "Jurisdiction governed"
+    },
+    {
+      "predicatename": "role:keeperoftheoriginal",
+      "eng": "Keeper of the original",
+      "displayname": "AufbewahrerIn des Originals",
+      "ita": "Affidatario dell'originale"
+    },
+    {
+      "predicatename": "role:lbr",
+      "eng": "Laboratory",
+      "displayname": "Labor",
+      "ita": "Laboratory"
+    },
+    {
+      "predicatename": "role:ldr",
+      "eng": "Laboratory director",
+      "displayname": "LaborleiterIn",
+      "ita": "Laboratory director"
+    },
+    {
+      "predicatename": "role:lsa",
+      "eng": "Landscape architect",
+      "displayname": "LandschaftsarchitektIn",
+      "ita": "Landscape architect"
+    },
+    {
+      "predicatename": "role:led",
+      "eng": "Lead",
+      "displayname": "Leit- / LeiterIn-",
+      "ita": "Lead"
+    },
+    {
+      "predicatename": "role:len",
+      "eng": "Lender",
+      "displayname": "Leihgeber",
+      "ita": "Lender"
+    },
+    {
+      "predicatename": "role:lil",
+      "eng": "Libelant",
+      "displayname": "Libelant",
+      "ita": "Libelant"
+    },
+    {
+      "predicatename": "role:lit",
+      "eng": "Libelant-appellant",
+      "displayname": "Libelant-appellant",
+      "ita": "Libelant-appellant"
+    },
+    {
+      "predicatename": "role:lie",
+      "eng": "Libelant-appellee",
+      "displayname": "Libelant-appellee",
+      "ita": "Libelant-appellee"
+    },
+    {
+      "predicatename": "role:lel",
+      "eng": "Libelee",
+      "displayname": "Libelee",
+      "ita": "Libelee"
+    },
+    {
+      "predicatename": "role:let",
+      "eng": "Libelee-appellant",
+      "displayname": "Libelee-appellant",
+      "ita": "Libelee-appellant"
+    },
+    {
+      "predicatename": "role:lee",
+      "eng": "Libelee-appellee",
+      "displayname": "Libelee-appellee",
+      "ita": "Libelee-appellee"
+    },
+    {
+      "predicatename": "role:lbt",
+      "eng": "Librettist",
+      "displayname": "LibrettistIn",
+      "ita": "Librettista"
+    },
+    {
+      "predicatename": "role:lse",
+      "eng": "Licensee",
+      "displayname": "LizenznehmerIn / LizenzinhaberIn",
+      "ita": "Licensee"
+    },
+    {
+      "predicatename": "role:lso",
+      "eng": "Licensor",
+      "displayname": "LizenzgeberIn",
+      "ita": "Licensor"
+    },
+    {
+      "predicatename": "role:lgd",
+      "eng": "Lighting designer",
+      "displayname": "LichtgestalterIn",
+      "ita": "Lighting designer"
+    },
+    {
+      "predicatename": "role:ltg",
+      "eng": "Lithographer",
+      "displayname": "LithographIn",
+      "ita": "Litografo"
+    },
+    {
+      "predicatename": "role:lyr",
+      "eng": "Lyricist",
+      "displayname": "SongwriterIn",
+      "ita": "Paroliere"
+    },
+    {
+      "predicatename": "role:mfp",
+      "eng": "Manufacture place",
+      "displayname": "Herstellungsort",
+      "ita": "Manufacture place"
+    },
+    {
+      "predicatename": "role:mfr",
+      "eng": "Manufacturer",
+      "displayname": "HerstellerIn",
+      "ita": "Manufacturer"
+    },
+    {
+      "predicatename": "role:mrb",
+      "eng": "Marbler",
+      "displayname": "MarmorierIn",
+      "ita": "Marbler"
+    },
+    {
+      "predicatename": "role:mrk",
+      "eng": "Markup editor",
+      "displayname": "Markup editor",
+      "ita": "Markup editor"
+    },
+    {
+      "predicatename": "role:med",
+      "eng": "Medium",
+      "displayname": "Medium",
+      "ita": "Medium"
+    },
+    {
+      "predicatename": "role:mdc",
+      "eng": "Metadata contact",
+      "displayname": "Metadata contact",
+      "ita": "Metadata contact"
+    },
+    {
+      "predicatename": "role:emt",
+      "eng": "Metal-engraver",
+      "displayname": "MetallstecherIn",
+      "ita": "Calcografo"
+    },
+    {
+      "predicatename": "role:mtk",
+      "eng": "Minute taker",
+      "displayname": "ProtokollführerIn",
+      "ita": "Minute taker"
+    },
+    {
+      "predicatename": "role:mod",
+      "eng": "Moderator",
+      "displayname": "ModeratorIn / DiskussionsleiterIn",
+      "ita": "Moderator"
+    },
+    {
+      "predicatename": "role:mon",
+      "eng": "Monitor",
+      "displayname": "Monitor",
+      "ita": "Monitor"
+    },
+    {
+      "predicatename": "role:mcp",
+      "eng": "Music copyist",
+      "displayname": "MusikkopistIn / KopistIn",
+      "ita": "Music copyist"
+    },
+    {
+      "predicatename": "role:msd",
+      "eng": "Musical director",
+      "displayname": "musikalische/r LeiterIn",
+      "ita": "Direttore musicale"
+    },
+    {
+      "predicatename": "role:mus",
+      "eng": "Musician",
+      "displayname": "MusikerIn",
+      "ita": "Musicista"
+    },
+    {
+      "predicatename": "role:nrt",
+      "eng": "Narrator",
+      "displayname": "ErzählerIn",
+      "ita": "Narrator"
+    },
+    {
+      "predicatename": "role:osp",
+      "eng": "Onscreen presenter",
+      "displayname": "Fernseh- / TV-ModeratorIn",
+      "ita": "Onscreen presenter"
+    },
+    {
+      "predicatename": "role:opn",
+      "eng": "Opponent",
+      "displayname": "WidersacherIn",
+      "ita": "Controrelatore"
+    },
+    {
+      "predicatename": "role:orm",
+      "eng": "Organizer",
+      "displayname": "VeranstalterIn",
+      "ita": "Organizer"
+    },
+    {
+      "predicatename": "role:org",
+      "eng": "Originator",
+      "displayname": "ErzeugerIn",
+      "ita": "Originator"
+    },
+    {
+      "predicatename": "role:oth",
+      "eng": "Other",
+      "displayname": "Andere",
+      "ita": "Altro"
+    },
+    {
+      "predicatename": "role:own",
+      "eng": "Owner",
+      "displayname": "EigentümerIn",
+      "ita": "Proprietario"
+    },
+    {
+      "predicatename": "role:pan",
+      "eng": "Panelist",
+      "displayname": "DiskussionsteilnehmerIn",
+      "ita": "Panelist"
+    },
+    {
+      "predicatename": "role:ppm",
+      "eng": "Papermaker",
+      "displayname": "PapiermacherIn / PapierherstellerIn",
+      "ita": "Papermaker"
+    },
+    {
+      "predicatename": "role:pta",
+      "eng": "Patent applicant",
+      "displayname": "PatentanmelderIn",
+      "ita": "Patent applicant"
+    },
+    {
+      "predicatename": "role:pth",
+      "eng": "Patent holder",
+      "displayname": "PatentinhaberIn",
+      "ita": "Patent holder"
+    },
+    {
+      "predicatename": "role:pat",
+      "eng": "Patron",
+      "displayname": "SchirmherrIn / FördererIn",
+      "ita": "Patron"
+    },
+    {
+      "predicatename": "role:pedagogicexpert",
+      "eng": "Pedagogic Expert",
+      "displayname": "Pädagogische/r ExpertIn",
+      "ita": "Esperto pedagogico"
+    },
+    {
+      "predicatename": "role:prf",
+      "eng": "Performer",
+      "displayname": "Performer",
+      "ita": "Performer"
+    },
+    {
+      "predicatename": "role:pma",
+      "eng": "Permitting agency",
+      "displayname": "Genehmigungsbehörde",
+      "ita": "Permitting agency"
+    },
+    {
+      "predicatename": "role:pht",
+      "eng": "Photographer",
+      "displayname": "FotografIn",
+      "ita": "Fotografo"
+    },
+    {
+      "predicatename": "role:ptf",
+      "eng": "Plaintiff",
+      "displayname": "KlägerIn",
+      "ita": "Plaintiff"
+    },
+    {
+      "predicatename": "role:ptt",
+      "eng": "Plaintiff-appellant",
+      "displayname": "Plaintiff-appellant",
+      "ita": "Plaintiff-appellant"
+    },
+    {
+      "predicatename": "role:pte",
+      "eng": "Plaintiff-appellee",
+      "displayname": "Plaintiff-appellee",
+      "ita": "Plaintiff-appellee"
+    },
+    {
+      "predicatename": "role:plt",
+      "eng": "Platemaker",
+      "displayname": "Platemaker",
+      "ita": "Platemaker"
+    },
+    {
+      "predicatename": "role:pra",
+      "eng": "Praeses",
+      "displayname": "Präses",
+      "ita": "Praeses"
+    },
+    {
+      "predicatename": "role:pre",
+      "eng": "Presenter",
+      "displayname": "Presenter",
+      "ita": "Presenter"
+    },
+    {
+      "predicatename": "role:prt",
+      "eng": "Printer",
+      "displayname": "DruckerIn",
+      "ita": "Stampatore"
+    },
+    {
+      "predicatename": "role:pop",
+      "eng": "Printer of plates",
+      "displayname": "PlattendruckerIn",
+      "ita": "Printer of plates"
+    },
+    {
+      "predicatename": "role:prm",
+      "eng": "Printmaker",
+      "displayname": "DruckerIn / GrafikkünstlerIn",
+      "ita": "Printmaker"
+    },
+    {
+      "predicatename": "role:prc",
+      "eng": "Process contact",
+      "displayname": "AnsprechpartnerIn",
+      "ita": "Process contact"
+    },
+    {
+      "predicatename": "role:pro",
+      "eng": "Producer",
+      "displayname": "ProduzentIn",
+      "ita": "Produttore"
+    },
+    {
+      "predicatename": "role:prn",
+      "eng": "Production company",
+      "displayname": "Produktionsfirma",
+      "ita": "Production company"
+    },
+    {
+      "predicatename": "role:prp",
+      "eng": "Production place",
+      "displayname": "Produktionsort",
+      "ita": "Production place"
+    },
+    {
+      "predicatename": "role:prs",
+      "eng": "Production designer",
+      "displayname": "AusstatterIn",
+      "ita": "Production designer"
+    },
+    {
+      "predicatename": "role:pmn",
+      "eng": "Production manager",
+      "displayname": "ProduktionsmanagerIn",
+      "ita": "Production manager"
+    },
+    {
+      "predicatename": "role:prd",
+      "eng": "Production personnel",
+      "displayname": "Produktionspersonal",
+      "ita": "Production personnel"
+    },
+    {
+      "predicatename": "role:prg",
+      "eng": "Programmer",
+      "displayname": "ProgrammiererIn",
+      "ita": "Programmer"
+    },
+    {
+      "predicatename": "role:pdr",
+      "eng": "Project director",
+      "displayname": "PrjektleiterIn",
+      "ita": "Project director"
+    },
+    {
+      "predicatename": "role:pfr",
+      "eng": "Proofreader",
+      "displayname": "LektorIn",
+      "ita": "Correttore"
+    },
+    {
+      "predicatename": "role:prv",
+      "eng": "Provider",
+      "displayname": "AnbieterIn / LieferantIn",
+      "ita": "Provider"
+    },
+    {
+      "predicatename": "role:pbl",
+      "eng": "Publisher",
+      "displayname": "HerausgeberIn",
+      "ita": "Editore"
+    },
+    {
+      "predicatename": "role:pbd",
+      "eng": "Publishing director",
+      "displayname": "VerlagsleiterIn",
+      "ita": "Publishing director"
+    },
+    {
+      "predicatename": "role:ppt",
+      "eng": "Puppeteer",
+      "displayname": "PuppenspielerIn",
+      "ita": "Puppeteer"
+    },
+    {
+      "predicatename": "role:rdd",
+      "eng": "Radio director",
+      "displayname": "Rund/Hörfunkdirektorin / RundfunkintendantIn",
+      "ita": "Radio director"
+    },
+    {
+      "predicatename": "role:rpc",
+      "eng": "Radio producer",
+      "displayname": "RadioproduzentIn",
+      "ita": "Radio producer"
+    },
+    {
+      "predicatename": "role:rce",
+      "eng": "Recording engineer",
+      "displayname": "TonmeisterIn",
+      "ita": "Tecnico della registrazione"
+    },
+    {
+      "predicatename": "role:rcd",
+      "eng": "Recordist",
+      "displayname": "TontechnikerIn",
+      "ita": "Recordist"
+    },
+    {
+      "predicatename": "role:red",
+      "eng": "Redaktor",
+      "displayname": "RedakteurIn",
+      "ita": "Redaktor"
+    },
+    {
+      "predicatename": "role:ren",
+      "eng": "Renderer",
+      "displayname": "ReinzeichnerIn",
+      "ita": "Renderer"
+    },
+    {
+      "predicatename": "role:rpt",
+      "eng": "Reporter",
+      "displayname": "ReporterIn / BerichterstatterIn",
+      "ita": "Reporter"
+    },
+    {
+      "predicatename": "role:rth",
+      "eng": "Research team head",
+      "displayname": "Projektverantwortliche/r",
+      "ita": "Direttore della ricerca"
+    },
+    {
+      "predicatename": "role:rtm",
+      "eng": "Research team member",
+      "displayname": "ProjektmitarbeiterIn",
+      "ita": "Membro di un gruppo di ricerca"
+    },
+    {
+      "predicatename": "role:res",
+      "eng": "Researcher",
+      "displayname": "ForscherIn",
+      "ita": "Ricercatore"
+    },
+    {
+      "predicatename": "role:rsp",
+      "eng": "Respondent",
+      "displayname": "Respondent",
+      "ita": "Respondent"
+    },
+    {
+      "predicatename": "role:rst",
+      "eng": "Respondent-appellant",
+      "displayname": "Respondent-appellant",
+      "ita": "Respondent-appellant"
+    },
+    {
+      "predicatename": "role:rse",
+      "eng": "Respondent-appellee",
+      "displayname": "Respondent-appellee",
+      "ita": "Respondent-appellee"
+    },
+    {
+      "predicatename": "role:rpy",
+      "eng": "Responsible party",
+      "displayname": "Responsible party",
+      "ita": "Responsible party"
+    },
+    {
+      "predicatename": "role:rsg",
+      "eng": "Restager",
+      "displayname": "WiederaufführunerIn",
+      "ita": "Restager"
+    },
+    {
+      "predicatename": "role:rsr",
+      "eng": "Restorationist",
+      "displayname": "RestauratorIn",
+      "ita": "Restorationist"
+    },
+    {
+      "predicatename": "role:rev",
+      "eng": "Reviewer",
+      "displayname": "KritikerIn",
+      "ita": "Recensore"
+    },
+    {
+      "predicatename": "role:rbr",
+      "eng": "Rubricator",
+      "displayname": "Rubricator",
+      "ita": "Rubricator"
+    },
+    {
+      "predicatename": "role:sce",
+      "eng": "Scenarist",
+      "displayname": "SzenentexterIn",
+      "ita": "Scenografo"
+    },
+    {
+      "predicatename": "role:sad",
+      "eng": "Scientific advisor",
+      "displayname": "wissenschaftliche BeraterIn",
+      "ita": "Consulente scientifico"
+    },
+    {
+      "predicatename": "role:aus",
+      "eng": "Screenwriter",
+      "displayname": "DrehbuchautorIn",
+      "ita": "Sceneggiatore"
+    },
+    {
+      "predicatename": "role:scr",
+      "eng": "Scribe",
+      "displayname": "SchreiberIn",
+      "ita": "Scribe"
+    },
+    {
+      "predicatename": "role:scl",
+      "eng": "Sculptor",
+      "displayname": "BildhauerIn",
+      "ita": "Scultore"
+    },
+    {
+      "predicatename": "role:spy",
+      "eng": "Second party",
+      "displayname": "Second party",
+      "ita": "Second party"
+    },
+    {
+      "predicatename": "role:sec",
+      "eng": "Secretary",
+      "displayname": "SekretärIn",
+      "ita": "Secretary"
+    },
+    {
+      "predicatename": "role:sll",
+      "eng": "Seller",
+      "displayname": "VerkäuferIn",
+      "ita": "Seller"
+    },
+    {
+      "predicatename": "role:std",
+      "eng": "Set designer",
+      "displayname": "AusstatterIn",
+      "ita": "Set designer"
+    },
+    {
+      "predicatename": "role:stg",
+      "eng": "Setting",
+      "displayname": "Schauplatz",
+      "ita": "Setting"
+    },
+    {
+      "predicatename": "role:sgn",
+      "eng": "Signer",
+      "displayname": "UnterzeichnerIn",
+      "ita": "Signer"
+    },
+    {
+      "predicatename": "role:sng",
+      "eng": "Singer",
+      "displayname": "SängerIn",
+      "ita": "Cantante"
+    },
+    {
+      "predicatename": "role:sds",
+      "eng": "Sound designer",
+      "displayname": "SounddesignerIn",
+      "ita": "Progettista del suono"
+    },
+    {
+      "predicatename": "role:spk",
+      "eng": "Speaker",
+      "displayname": "SprecherIn",
+      "ita": "Speaker"
+    },
+    {
+      "predicatename": "role:spn",
+      "eng": "Sponsor",
+      "displayname": "FördererIn",
+      "ita": "Sponsor"
+    },
+    {
+      "predicatename": "role:sgd",
+      "eng": "Stage director",
+      "displayname": "(Theater)RegisseurIn",
+      "ita": "Stage director"
+    },
+    {
+      "predicatename": "role:stm",
+      "eng": "Stage manager",
+      "displayname": "InspizientIn / BühnenmeisterIn",
+      "ita": "Stage manager"
+    },
+    {
+      "predicatename": "role:stn",
+      "eng": "Standards body",
+      "displayname": "Normkomitee",
+      "ita": "Standards body"
+    },
+    {
+      "predicatename": "role:str",
+      "eng": "Stereotyper",
+      "displayname": "Stereotyper",
+      "ita": "Stereotyper"
+    },
+    {
+      "predicatename": "role:stl",
+      "eng": "Storyteller",
+      "displayname": "ErzählerIn",
+      "ita": "Storyteller"
+    },
+    {
+      "predicatename": "role:sht",
+      "eng": "Supporting host",
+      "displayname": "UnterstützerIn",
+      "ita": "Supporting host"
+    },
+    {
+      "predicatename": "role:srv",
+      "eng": "Surveyor",
+      "displayname": "VermesserIn",
+      "ita": "Surveyor"
+    },
+    {
+      "predicatename": "role:tch",
+      "eng": "Teacher",
+      "displayname": "LehrerIn",
+      "ita": "Teacher"
+    },
+    {
+      "predicatename": "role:tcd",
+      "eng": "Technical director",
+      "displayname": "Technische/r DirektorIn",
+      "ita": "Technical director"
+    },
+    {
+      "predicatename": "role:technicalinspector",
+      "eng": "Technical Inspector",
+      "displayname": "Technische/r PrüferIn",
+      "ita": "Ispettore tecnico"
+    },
+    {
+      "predicatename": "role:technicaltranslator",
+      "eng": "Technical Translator",
+      "displayname": "Technische/r UmsetzerIn",
+      "ita": "Traduttore Tecnico"
+    },
+    {
+      "predicatename": "role:tld",
+      "eng": "Television director",
+      "displayname": "FernsehintendantIn",
+      "ita": "Television director"
+    },
+    {
+      "predicatename": "role:tlp",
+      "eng": "Television producer",
+      "displayname": "FernsehproduzentIn",
+      "ita": "Television producer"
+    },
+    {
+      "predicatename": "role:textprocessor",
+      "eng": "Text Processor",
+      "displayname": "TextbearbeiterIn",
+      "ita": "Estensore del testo"
+    },
+    {
+      "predicatename": "role:ths",
+      "eng": "Thesis advisor",
+      "displayname": "DissertationsbetreuerIn",
+      "ita": "Relatore"
+    },
+    {
+      "predicatename": "role:trc",
+      "eng": "Transcriber",
+      "displayname": "Transcriber",
+      "ita": "Transcriber"
+    },
+    {
+      "predicatename": "role:trl",
+      "eng": "Translator",
+      "displayname": "ÜbersetzerIn",
+      "ita": "Traduttore"
+    },
+    {
+      "predicatename": "role:tyd",
+      "eng": "Type designer",
+      "displayname": "SchriftdesignerIn / SchriftentwerferIn",
+      "ita": "Type designer"
+    },
+    {
+      "predicatename": "role:tyg",
+      "eng": "Typographer",
+      "displayname": "TypographIn",
+      "ita": "Tipografo"
+    },
+    {
+      "predicatename": "role:uploader",
+      "eng": "Uploader",
+      "displayname": "Uploader",
+      "ita": "Uploader"
+    },
+    {
+      "predicatename": "role:vdg",
+      "eng": "Videographer",
+      "displayname": "VideoanbieterIn",
+      "ita": "Videografo"
+    },
+    {
+      "predicatename": "role:vac",
+      "eng": "Voice actor",
+      "displayname": "SynchronsprecherIn",
+      "ita": "Voice actor"
+    },
+    {
+      "predicatename": "role:wit",
+      "eng": "Witness",
+      "displayname": "ZeugIn",
+      "ita": "Witness"
+    },
+    {
+      "predicatename": "role:wde",
+      "eng": "Wood-engraver",
+      "displayname": "HolzstecherIn",
+      "ita": "Xilografo"
+    },
+    {
+      "predicatename": "role:wdc",
+      "eng": "Woodcutter",
+      "displayname": "HolzschneiderIn",
+      "ita": "Woodcutter"
+    },
+    {
+      "predicatename": "role:wam",
+      "eng": "Writer of accompanying material",
+      "displayname": "AutorIn von Begleitmaterial",
+      "ita": "Autore del materiale allegato"
+    },
+    {
+      "predicatename": "role:wac",
+      "eng": "Writer of added commentary",
+      "displayname": "Writer of added commentary",
+      "ita": "Writer of added commentary"
+    },
+    {
+      "predicatename": "role:wal",
+      "eng": "Writer of added lyrics",
+      "displayname": "Writer of added lyrics",
+      "ita": "Writer of added lyrics"
+    },
+    {
+      "predicatename": "role:wat",
+      "eng": "Writer of added text",
+      "displayname": "Writer of added text",
+      "ita": "Writer of added text"
+    },
+    {
+      "predicatename": "role:win",
+      "eng": "Writer of introduction",
+      "displayname": "Writer of introduction",
+      "ita": "Writer of introduction"
+    },
+    {
+      "predicatename": "role:wpr",
+      "eng": "Writer of preface",
+      "displayname": "Writer of preface",
+      "ita": "Writer of preface"
+    },
+    {
+      "predicatename": "role:wst",
+      "eng": "Writer of supplementary textual content",
+      "displayname": "Writer of supplementary textual content",
+      "ita": "Writer of supplementary textual content"
+    }
+  ]
+}

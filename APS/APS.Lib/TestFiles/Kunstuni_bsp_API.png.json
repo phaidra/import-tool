@@ -1,0 +1,84 @@
+{
+  "metadata": {
+    "uwmetadata": [
+      {
+        "xmlns": "http://phaidra.univie.ac.at/XML/metadata/lom/V1.0",
+        "xmlname": "general",
+        "children": [
+          {
+            "xmlns": "http://phaidra.univie.ac.at/XML/metadata/lom/V1.0",
+            "xmlname": "title",
+            "ui_value": "GS test API Upload - mit Umlauten",
+            "value_lang": "de",
+            "datatype": "LangString"
+          },
+          {
+            "xmlns": "http://phaidra.univie.ac.at/XML/metadata/lom/V1.0",
+            "xmlname": "language",
+            "ui_value": "de",
+            "datatype": "Language"
+          },
+          {
+            "xmlns": "http://phaidra.univie.ac.at/XML/metadata/lom/V1.0",
+            "xmlname": "description",
+            "ui_value": "GS Das ist ein Text mit Umlauten. ä, ö und ü",
+            "value_lang": "de",
+            "datatype": "LangString"
+          }
+        ]
+      },
+      {
+        "xmlns": "http://phaidra.univie.ac.at/XML/metadata/lom/V1.0",
+        "xmlname": "lifecycle",
+        "children": [
+          {
+            "xmlns": "http://phaidra.univie.ac.at/XML/metadata/lom/V1.0",
+            "xmlname": "contribute",
+            "data_order": "0",
+            "ordered": 1,
+            "children": [
+              {
+                "xmlns": "http://phaidra.univie.ac.at/XML/metadata/lom/V1.0",
+                "xmlname": "role",
+                "ui_value": "http://phaidra.univie.ac.at/XML/metadata/lom/V1.0/voc_3/46",
+                "datatype": "Vocabulary"
+              },
+              {
+                "xmlns": "http://phaidra.univie.ac.at/XML/metadata/lom/V1.0",
+                "xmlname": "entity",
+                "data_order": "0",
+                "ordered": 1,
+                "children": [
+                  {
+                    "xmlns": "http://phaidra.univie.ac.at/XML/metadata/lom/V1.0/entity",
+                    "xmlname": "firstname",
+                    "ui_value": "Ivo",
+                    "datatype": "CharacterString"
+                  },
+                  {
+                    "xmlns": "http://phaidra.univie.ac.at/XML/metadata/lom/V1.0/entity",
+                    "xmlname": "lastname",
+                    "ui_value": "Gutleben",
+                    "datatype": "CharacterString"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "xmlns": "http://phaidra.univie.ac.at/XML/metadata/lom/V1.0",
+        "xmlname": "rights",
+        "children": [
+          {
+            "xmlns": "http://phaidra.univie.ac.at/XML/metadata/lom/V1.0",
+            "xmlname": "license",
+            "ui_value": "http://phaidra.univie.ac.at/XML/metadata/lom/V1.0/voc_21/1",
+            "datatype": "License"
+          }
+        ]
+      }
+    ]
+  }
+}

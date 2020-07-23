@@ -1,0 +1,59 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="PhaidraAttributeFiles\AttributeTemplates\phaidra-attribute-template-concepts.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="PhaidraAttributeFiles\AttributeTemplates\phaidra-attribute-template-edm-rights.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="PhaidraAttributeFiles\AttributeTemplates\x_phaidra-attribute-template-roles-example.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="PhaidraAttributeFiles\AttributeTemplates\phaidra-attribute-template-roles.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="PhaidraAttributeFiles\AttributeTemplates\x_phaidra-attribute-template-role-author - Copy.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="PhaidraAttributeFiles\AttributeTemplates\phaidra-attribute-template-title.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="PhaidraAttributeFiles\AttributeTemplates\x_phaidra-attribute-template-title - Copy.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="PhaidraAttributeFiles\collection-members-base.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="PhaidraAttributeFiles\create-collection-base.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="PhaidraAttributeFiles\extension2mimetype.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="PhaidraAttributeFiles\list_json_types_kug-org.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="PhaidraAttributeFiles\mimetype2phaidratype.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="PhaidraAttributeFiles\AttributeTemplates\x_phaidra-attribute-template-role-author.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="PhaidraAttributeFiles\AttributeTemplates\phaidra-attribute-template-dates.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="PhaidraAttributeFiles\phaidratype2dctermstype.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

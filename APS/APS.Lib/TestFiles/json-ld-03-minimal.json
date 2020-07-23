@@ -1,0 +1,19 @@
+﻿{
+  "dcterms:type": [
+    {
+      "@type": "skos:Concept",
+      "skos:exactMatch": [
+        "https://pid.phaidra.org/vocabulary/44TN-P1S0"
+      ],
+      "skos:prefLabel": [
+        {
+          "@language": "eng",
+          "@value": "image"
+        }
+      ]
+    }
+  ],
+  "ebucore:filename": [
+    "20191030103255183_448a2d64-bb34-4863-868f-f0a032bacd43_manuell2.jpg"
+  ]
+}

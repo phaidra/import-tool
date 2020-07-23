@@ -1,0 +1,43 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" Width="600" Height="225"
+        x:Class="APS.UI.MainWindow"
+        Title="Phaidra Importer">
+  <Grid>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="Auto" />
+      <RowDefinition Height="Auto" />
+      <RowDefinition Height="Auto" />
+      <RowDefinition Height="Auto" />
+      <RowDefinition Height="Auto" />
+      <RowDefinition Height="Auto" />
+      <RowDefinition Height="Auto" />
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition Width="Auto" />
+      <ColumnDefinition Width="*" />
+    </Grid.ColumnDefinitions>
+    <TextBlock Text="Phaidra Importer" FontSize="15" Margin="4" />
+    <TextBlock Grid.Row="1" Grid.Column="0" Text="CSV file path:" Margin="4" VerticalAlignment="Center" />
+    <TextBox Grid.Row="1" Grid.Column="1" Text="{Binding CsvPath}"  Margin="4" ToolTip.Tip="Path to import csv" IsEnabled="{Binding IsEnabled}" />
+    <TextBlock Grid.Row="2" Grid.Column="0" Text="Encoding:" Margin="4" VerticalAlignment="Center" />
+    <ComboBox Grid.Row="2" Grid.Column="1" SelectedItem="{Binding SelectedEncodingInfo}" Items="{Binding EncodingInfos}"  Margin="4" IsEnabled="{Binding IsEnabled}">
+      <ComboBox.ItemTemplate>
+        <DataTemplate>
+          <StackPanel Orientation="Horizontal">
+            <TextBlock Text="{Binding DisplayName}" Margin="2"/>
+            <TextBlock Text="{Binding Name}" Margin="2"/>
+          </StackPanel>
+        </DataTemplate>
+      </ComboBox.ItemTemplate>
+    </ComboBox>
+    <TextBlock Grid.Row="3" Grid.Column="0" Text="File root directory:" Margin="4" VerticalAlignment="Center" />
+    <TextBox Grid.Row="3" Grid.Column="1" Text="{Binding RootDir}" ToolTip.Tip="root directory where csv filenames start from" Margin="4" IsEnabled="{Binding IsEnabled}" />
+    <Button Grid.Row="4" Grid.Column="1" Content="Mappings ..." Command="{Binding ConfigureMappingsCommand}" ToolTip.Tip="Edit csv column to phaidra attribute mappings"  Margin="4" />
+    <Button Grid.Row="5" Grid.Column="1" Content="{Binding StartCommandText, FallbackValue=Start}" Command="{Binding StartCommand}"  Margin="4"/>
+    <ProgressBar Grid.Row="6" Grid.ColumnSpan="2" Height="25" Maximum="{Binding ProgressMaximum}" Value="{Binding ProgressValue}" />
+    <TextBlock Grid.Row="6" Grid.ColumnSpan="2" Text="{Binding ProgressText}" VerticalAlignment="Center" HorizontalAlignment="Center" ToolTip.Tip="{Binding ProgressText}"/>
+  </Grid>
+</Window>

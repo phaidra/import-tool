@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:dct="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/spec/" xmlns:void="http://rdfs.org/ns/void#" xmlns:iqvoc="http://try.iqvoc.net/schema#" xmlns="https://pid.phaidra.org/vocabulary/" xmlns:schema="https://pid.phaidra.org/vocabulary/schema#">
+  <rdf:Description rdf:about="https://pid.phaidra.org/vocabulary/44TN-P1S0">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <schema:memberOf rdf:resource="https://pid.phaidra.org/vocabulary/7E4S-MA30"/>
+    <skos:topConceptOf rdf:resource="https://pid.phaidra.org/vocabulary/scheme"/>
+    <skos:inScheme rdf:resource="https://pid.phaidra.org/vocabulary/scheme"/>
+    <skos:prefLabel xml:lang="en">image</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Bild</skos:prefLabel>
+    <skos:changeNote>
+      <rdf:Description>
+        <rdfs:comment xml:lang="en">initial version</rdfs:comment>
+        <dct:created>2019-03-13T10:49:51+01:00</dct:created>
+        <dct:creator>Anna Bellotto</dct:creator>
+      </rdf:Description>
+    </skos:changeNote>
+    <skos:changeNote>
+      <rdf:Description>
+        <dct:creator>Anna Bellotto</dct:creator>
+        <dct:modified>2019-03-13T11:07:06+01:00</dct:modified>
+      </rdf:Description>
+    </skos:changeNote>
+    <skos:changeNote>
+      <rdf:Description>
+        <dct:creator>Anna Bellotto</dct:creator>
+        <dct:modified>2019-03-13T11:32:43+01:00</dct:modified>
+      </rdf:Description>
+    </skos:changeNote>
+    <skos:exactMatch rdf:resource="http://purl.org/coar/resource_type/c_ecc8"/>
+  </rdf:Description>
+</rdf:RDF>

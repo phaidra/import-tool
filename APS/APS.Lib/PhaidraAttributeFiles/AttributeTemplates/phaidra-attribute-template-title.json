@@ -1,0 +1,33 @@
+{
+  "template": {
+    "@type": "bf:Title",
+    "bf:mainTitle": [
+      {
+        "@value": "titel 1",
+        "@language": "eng"
+      }
+    ],
+    "bf:subtitle": [
+      {
+        "@value": "sub-title 1",
+        "@language": "eng"
+      }
+    ]
+  },
+  "fields": [
+    {
+      "displayname": "Haupttitel",
+      "path": "bf:mainTitle[0].@value"
+    },
+    {
+      "displayname": "Untertitel",
+      "path": "bf:subtitle[0].@value"
+    }
+  ],
+  "predicates": [
+    {
+      "predicatename": "dce:title",
+      "displayname": "Titel"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "template": {
+    "@type": "schema:Person",
+    "schema:givenName": [
+      {
+        "@value": "x Ludwig"
+      }
+    ],
+    "schema:familyName": [
+      {
+        "@value": "x van Beethoven"
+      }
+    ],
+    "skos:exactMatch": [
+      {
+        "@type": "ids:wikidata",
+        "@value": "x Q255"
+      }
+    ],
+    "schema:affiliation": [
+      {
+        "@type": "schema:Organization",
+        "schema:name": [
+          {
+            "@value": "test-affiliation"
+          }
+        ]
+      }
+    ]
+  },
+  "fields": [
+    {
+      "displayname": "Nachname",
+      "path": "schema:givenName[0].@value"
+    },
+    {
+      "displayname": "Vorname",
+      "path": "schema:familyName[0].@value"
+    },
+    {
+      "displayname": "Wikidata-ID",
+      "extendedfilter": [
+        {
+          "type": "select",
+          "path": "skos:exactMatch"
+        },
+        {
+          "type": "filterarray",
+          "attribute": "@type",
+          "value": "ids:wikidata"
+        },
+        {
+          "type": "select",
+          "path": "@value"
+        }
+      ]
+    },
+    {
+      "displayname": "Affiliation",
+      "path": "schema:affiliation[0].schema:name[0].@value"
+    }
+  ],
+  "predicates": [
+    {
+      "predicatename": "role:aut",
+      "displayname": "Autor"
+    }
+  ]
+}

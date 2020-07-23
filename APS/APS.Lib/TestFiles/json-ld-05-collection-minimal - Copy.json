@@ -1,0 +1,30 @@
+﻿{
+  "metadata": {
+    "json-ld": {
+      "dce:title": [
+        {
+          "@type": "bf:Title",
+          "bf:mainTitle": [
+            {
+              "@value": "GS col2"
+            }
+          ]
+        }
+      ],
+      "dcterms:type": [
+        {
+          "@type": "skos:Concept",
+          "skos:exactMatch": [
+            "https://pid.phaidra.org/vocabulary/GXS7-ENXJ"
+          ],
+          "skos:prefLabel": [
+            {
+              "@language": "eng",
+              "@value": "collection"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,68 @@
+﻿{
+
+  "schema:pageStart": [
+    "4387"
+  ],
+  "schema:pageEnd": [
+    "4394"
+  ],
+  "rdau:P60101": [
+    {
+      "dce:title": [
+        {
+          "@type": "bf:Title",
+          "bf:mainTitle": [
+            {
+              "@value": "This is the main title",
+              "@language": "deu"
+            }
+          ],
+          "bf:subtitle": [
+            {
+              "@value": "This is subtitle",
+              "@language": "deu"
+            }
+          ]
+        }
+      ],
+      "role:edt": [
+        {
+          "@type": "schema:Person",
+          "schema:givenName": {
+            "@value": "Maxwell"
+          },
+          "schema:familyName": {
+            "@value": "Perkins"
+          }
+        }
+      ],
+      "rdau:P60193": [
+        {
+          "@type": "schema:CreativeWork",
+          "dce:title": [
+            {
+              "@type": "bf:Title",
+              "bf:mainTitle": [
+                {
+                  "@value": "Book title"
+                }
+              ]
+            }
+          ],
+          "bibo:volume": [
+            "1"
+          ],
+          "bibo:issue": [
+            "10"
+          ],
+          "identifiers:issn": [
+            "0021-9738"
+          ],
+          "dcterms:issued": [
+            "2017-05"
+          ]
+        }
+      ]
+    }
+  ]
+}

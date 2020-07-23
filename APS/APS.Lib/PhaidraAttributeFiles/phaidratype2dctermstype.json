@@ -1,0 +1,98 @@
+﻿{
+  "collection": [
+    {
+      "skos:prefLabel": [
+        {
+          "@language": "eng",
+          "@value": "collection"
+        }
+      ],
+      "skos:exactMatch": [ "https://pid.phaidra.org/vocabulary/GXS7-ENXJ" ],
+      "@type": "skos:Concept"
+    }
+  ],
+  "container": [
+    {
+      "skos:prefLabel": [
+        {
+          "@language": "eng",
+          "@value": "container"
+        }
+      ],
+      "skos:exactMatch": [ "https://pid.phaidra.org/vocabulary/8MY0-BQDQ" ],
+      "@type": "skos:Concept"
+    }
+  ],
+  "data": [
+    {
+      "skos:prefLabel": [
+        {
+          "@language": "eng",
+          "@value": "data"
+        }
+      ],
+      "skos:exactMatch": [ "https://pid.phaidra.org/vocabulary/7AVS-Y482" ],
+      "@type": "skos:Concept"
+    }
+  ],
+  "picture": [
+    {
+      "skos:prefLabel": [
+        {
+          "@language": "eng",
+          "@value": "image"
+        }
+      ],
+      "skos:exactMatch": [ "https://pid.phaidra.org/vocabulary/44TN-P1S0" ],
+      "@type": "skos:Concept"
+    }
+  ],
+  "resource": [
+    {
+      "skos:prefLabel": [
+        {
+          "@language": "eng",
+          "@value": "resource"
+        }
+      ],
+      "skos:exactMatch": [ "https://pid.phaidra.org/vocabulary/T8GH-F4V8" ],
+      "@type": "skos:Concept"
+    }
+  ],
+  "audio": [
+    {
+      "skos:prefLabel": [
+        {
+          "@language": "eng",
+          "@value": "sound"
+        }
+      ],
+      "skos:exactMatch": [ "https://pid.phaidra.org/vocabulary/8YB5-1M0J" ],
+      "@type": "skos:Concept"
+    }
+  ],
+  "document": [
+    {
+      "skos:prefLabel": [
+        {
+          "@language": "eng",
+          "@value": "text"
+        }
+      ],
+      "skos:exactMatch": [ "https://pid.phaidra.org/vocabulary/69ZZ-2KGX" ],
+      "@type": "skos:Concept"
+    }
+  ],
+  "video": [
+    {
+      "skos:prefLabel": [
+        {
+          "@language": "eng",
+          "@value": "video"
+        }
+      ],
+      "skos:exactMatch": [ "https://pid.phaidra.org/vocabulary/B0Y6-GYT8" ],
+      "@type": "skos:Concept"
+    }
+  ]
+}

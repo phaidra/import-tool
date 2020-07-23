@@ -1,0 +1,16 @@
+C:\Users\p9911\Downloads\APS\APS.VocabularyHelper\bin\Release\netcoreapp3.0\APS.VocabularyHelper.exe
+C:\Users\p9911\Downloads\APS\APS.VocabularyHelper\bin\Release\netcoreapp3.0\vocabulary.txt
+C:\Users\p9911\Downloads\APS\APS.VocabularyHelper\bin\Release\netcoreapp3.0\APS.VocabularyHelper.deps.json
+C:\Users\p9911\Downloads\APS\APS.VocabularyHelper\bin\Release\netcoreapp3.0\APS.VocabularyHelper.runtimeconfig.json
+C:\Users\p9911\Downloads\APS\APS.VocabularyHelper\bin\Release\netcoreapp3.0\APS.VocabularyHelper.runtimeconfig.dev.json
+C:\Users\p9911\Downloads\APS\APS.VocabularyHelper\bin\Release\netcoreapp3.0\APS.VocabularyHelper.dll
+C:\Users\p9911\Downloads\APS\APS.VocabularyHelper\bin\Release\netcoreapp3.0\APS.VocabularyHelper.pdb
+C:\Users\p9911\Downloads\APS\APS.VocabularyHelper\bin\Release\netcoreapp3.0\Newtonsoft.Json.dll
+C:\Users\p9911\Downloads\APS\APS.VocabularyHelper\obj\Release\netcoreapp3.0\APS.VocabularyHelper.csprojAssemblyReference.cache
+C:\Users\p9911\Downloads\APS\APS.VocabularyHelper\obj\Release\netcoreapp3.0\APS.VocabularyHelper.AssemblyInfoInputs.cache
+C:\Users\p9911\Downloads\APS\APS.VocabularyHelper\obj\Release\netcoreapp3.0\APS.VocabularyHelper.AssemblyInfo.cs
+C:\Users\p9911\Downloads\APS\APS.VocabularyHelper\obj\Release\netcoreapp3.0\APS.VocabularyHelper.csproj.CoreCompileInputs.cache
+C:\Users\p9911\Downloads\APS\APS.VocabularyHelper\obj\Release\netcoreapp3.0\APS.VocabularyHelper.csproj.CopyComplete
+C:\Users\p9911\Downloads\APS\APS.VocabularyHelper\obj\Release\netcoreapp3.0\APS.VocabularyHelper.dll
+C:\Users\p9911\Downloads\APS\APS.VocabularyHelper\obj\Release\netcoreapp3.0\APS.VocabularyHelper.pdb
+C:\Users\p9911\Downloads\APS\APS.VocabularyHelper\obj\Release\netcoreapp3.0\APS.VocabularyHelper.genruntimeconfig.cache

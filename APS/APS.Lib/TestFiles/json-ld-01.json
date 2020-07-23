@@ -1,0 +1,239 @@
+﻿{
+  "alerts": [],
+  "metadata": {
+    "JSON-LD": {
+      "bf:note": [
+        {
+          "@type": "bf:Summary",
+          "skos:prefLabel": [
+            {
+              "@language": "",
+              "@value": "Test áÈ α áÈ α Test áÈ α áÈ αTest áÈ α áÈ α Test áÈ α áÈ αTest áÈ α áÈ αTest áÈ α áÈ αTest áÈ α áÈ α"
+            }
+          ]
+        }
+      ],
+      "bf:provisionActivity": [
+        {
+          "@type": "bf:Publication",
+          "bf:agent": [
+            {
+              "@type": "schema:Organization",
+              "schema:name": [
+                {
+                  "@value": "BMC"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "dce:subject": [
+        {
+          "@type": "skos:Concept",
+          "skos:prefLabel": [
+            {
+              "@language": "",
+              "@value": "Open Access,Open Science"
+            }
+          ]
+        }
+      ],
+      "dce:title": [
+        {
+          "@type": "bf:Title",
+          "bf:mainTitle": [
+            {
+              "@value": "Mein Testdokument öäß áÈ α"
+            }
+          ]
+        }
+      ],
+      "dcterms:accessRights": [
+        {
+          "@type": "skos:Concept",
+          "skos:exactMatch": [ "https:\/\/pid.phaidra.org\/vocabulary\/QW5R-NG4J" ],
+          "skos:prefLabel": [
+            {
+              "@language": "eng",
+              "@value": "open access"
+            }
+          ]
+        }
+      ],
+      "dcterms:dateAccepted": [ "2018-08-17" ],
+      "dcterms:language": [ "eng" ],
+      "dcterms:type": [
+        {
+          "@type": "skos:Concept",
+          "skos:exactMatch": [ "https:\/\/pid.phaidra.org\/vocabulary\/69ZZ-2KGX" ],
+          "skos:prefLabel": [
+            {
+              "@language": "eng",
+              "@value": "text"
+            }
+          ]
+        }
+      ],
+      "ebucore:filename": [ "Test _Dokument.pdf" ],
+      "ebucore:hasMimeType": [ "application\/pdf" ],
+      "edm:hasType": [
+        {
+          "@type": "skos:Concept",
+          "skos:exactMatch": [ "https:\/\/pid.phaidra.org\/vocabulary\/VKA6-9XTY" ],
+          "skos:prefLabel": [
+            {
+              "@language": "eng",
+              "@value": "journal article"
+            }
+          ]
+        }
+      ],
+      "edm:rights": [ "http:\/\/rightsstatements.org\/vocab\/InC\/1.0\/" ],
+      "frapo:isOutputOf": [
+        {
+          "@type": "foaf:Project",
+          "frapo:hasFundingAgency": [
+            {
+              "@type": "frapo:FundingAgency",
+              "skos:exactMatch": [ "https:\/\/pid.phaidra.org\/vocabulary\/N3C4-ZVR0" ],
+              "skos:prefLabel": [
+                {
+                  "@value": "Austrian Science Fund (FWF)"
+                }
+              ]
+            }
+          ],
+          "skos:exactMatch": [ "P 11111" ]
+        }
+      ],
+      "oaire:version": [
+        {
+          "@type": "skos:Concept",
+          "skos:exactMatch": [ "https:\/\/pid.phaidra.org\/vocabulary\/PHXV-R6B3" ],
+          "skos:prefLabel": [
+            {
+              "@language": "eng",
+              "@value": "accepted manuscript"
+            }
+          ]
+        }
+      ],
+      "rdam:P30004": [
+        {
+          "@type": "ids:doi",
+          "@value": "10.1629\/uksg.419"
+        }
+      ],
+      "rdau:P60193": [
+        {
+          "@type": "schema:CreativeWork",
+          "bibo:issue": [ "1" ],
+          "bibo:volume": [ "1" ],
+          "dce:title": [
+            {
+              "@type": "bf:Title",
+              "bf:mainTitle": [
+                {
+                  "@value": "Mein erfundenes Journal"
+                }
+              ]
+            }
+          ],
+          "dcterms:issued": [ "2019-08-06" ],
+          "identifiers:issn": [ "0188-7009" ]
+        }
+      ],
+      "role:aut": [
+        {
+          "@type": "schema:Person",
+          "schema:affiliation": [
+            {
+              "@type": "schema:Organization",
+              "schema:name": [
+                {
+                  "@language": "deu",
+                  "@value": "Teilchenphysik"
+                },
+                {
+                  "@language": "eng",
+                  "@value": "Particle Physics"
+                }
+              ],
+              "skos:exactMatch": [ "https:\/\/pid.phaidra.org\/univie-org\/SZ3V-56EP" ]
+            }
+          ],
+          "schema:familyName": [
+            {
+              "@value": "Gaukel"
+            }
+          ],
+          "schema:givenName": [
+            {
+              "@value": "Gundel"
+            }
+          ],
+          "skos:exactMatch": [
+            {
+              "@type": "ids:orcid",
+              "@value": "0000-0002-5908-2106"
+            }
+          ]
+        },
+        {
+          "@type": "schema:Person",
+          "schema:affiliation": [
+            {
+              "@type": "schema:Organization",
+              "schema:name": [
+                {
+                  "@language": "deu",
+                  "@value": "Teilchenphysik"
+                },
+                {
+                  "@language": "eng",
+                  "@value": "Particle Physics"
+                }
+              ],
+              "skos:exactMatch": [ "https:\/\/pid.phaidra.org\/univie-org\/SZ3V-56EP" ]
+            }
+          ],
+          "schema:familyName": [
+            {
+              "@value": "Rossa"
+            }
+          ],
+          "schema:givenName": [
+            {
+              "@value": "Testa"
+            }
+          ],
+          "skos:exactMatch": [
+            {
+              "@type": "ids:orcid",
+              "@value": "0000-0002-5908-2106"
+            }
+          ]
+        }
+      ],
+      "role:uploader": [
+        {
+          "@type": "schema:Person",
+          "schema:familyName": [
+            {
+              "@value": "Blechl"
+            }
+          ],
+          "schema:givenName": [
+            {
+              "@value": "Guido"
+            }
+          ]
+        }
+      ],
+      "schema:pageEnd": [ "44" ],
+      "schema:pageStart": [ "23" ]
+    }
+  },
+  "status": 200
+}

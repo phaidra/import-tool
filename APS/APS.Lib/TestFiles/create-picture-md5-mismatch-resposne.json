@@ -1,0 +1,16 @@
+﻿{
+  "alerts": [
+    {
+      "msg": "Error creating cmodel:Picture object",
+      "type": "danger"
+    },
+    {
+      "msg": {
+        "code": "500",
+        "message": "Internal Server Error"
+      },
+      "type": "danger"
+    }
+  ],
+  "status": 500
+}

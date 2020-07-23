@@ -1,0 +1,76 @@
+﻿<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:dg="clr-namespace:Avalonia.Controls;assembly=Avalonia.Controls.DataGrid"
+        mc:Ignorable="d" Width="1024" Height="768"
+        xmlns:local="clr-namespace:APS.UI.Converters;assembly=APS.UI"
+        x:Class="APS.UI.MappingsWindow2"
+        Title="Configure CSV mappings">
+  <Window.Resources>
+    <NameScope x:Key="namescope2"  />
+    <local:FieldToColorConverter x:Key="fieldToColorConverter1" />
+  </Window.Resources>
+  <Grid>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="Auto" />
+      <RowDefinition Height="Auto" />
+      <RowDefinition Height="Auto" />
+      <RowDefinition Height="*" />
+      <RowDefinition Height="Auto" />
+      <RowDefinition Height="Auto" />
+    </Grid.RowDefinitions>
+    <TextBlock Grid.Row="0" Text="Configure Phaidra to CSV attribute mappings" FontSize="15" Margin="4" />
+
+    <Grid Grid.Row="1" Margin="2" HorizontalAlignment="Center">
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto" />
+        <ColumnDefinition Width="Auto" />
+        <ColumnDefinition Width="Auto" />
+      </Grid.ColumnDefinitions>
+      <Button Grid.Column="0" Content="&lt;" Command="{Binding PreviousRowCommand}" Width="50" ToolTip.Tip="Previous row" />
+      <TextBlock Grid.Column="1" Text="{Binding RowSelectionStatusText}" VerticalAlignment="Center" Margin="10,0,10,0"/>
+      <Button Grid.Column="2" Content="&gt;" Command="{Binding NextRowCommand}" Width="50" ToolTip.Tip="Next row"/>
+    </Grid>
+
+    <Grid Grid.Row="2" Margin="2">
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="*" />
+        <ColumnDefinition Width="*" />
+        <ColumnDefinition Width="*" />
+      </Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0" Text="CSV column" />
+      <TextBlock Grid.Column="1" Text="CSV value" HorizontalAlignment="Center" />
+      <TextBlock Grid.Column="2" Text="Phaidra attribute" HorizontalAlignment="Right" />
+    </Grid>
+
+    <ListBox Grid.Row="3"  Items="{Binding Mappings2}" SelectedItem="{Binding SelectedMapping2}" Name="lstAttributeFields"  NameScope.NameScope="{StaticResource namescope2}" >
+      <ListBox.ItemTemplate>
+        <DataTemplate>
+          <Grid Background="{Binding Field, Converter={StaticResource fieldToColorConverter1}}">
+            <Grid.ColumnDefinitions>
+              <ColumnDefinition Width="*" />
+              <ColumnDefinition Width="*" />
+              <ColumnDefinition Width="*" />
+              <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+            <TextBlock Grid.Column="0" Text="{Binding CsvColumn.Name}" Margin="4,0,4,0" />
+            <TextBlock Grid.Column="1" Text="{Binding CsvColumn.ValueTrunc}" ToolTip.Tip="{Binding CsvColumn.Value}" Margin="4,0,4,0" />
+            <TextBlock Grid.Column="2" Text="{Binding Field}" ToolTip.Tip="{Binding Field}" HorizontalAlignment="Right" Margin="4,0,4,0" />
+            <Button Grid.Column="3" Command="{Binding DataContext.SelectPhaidraAttributeFieldCommand, ElementName=lstAttributeFields}" CommandParameter="{Binding}" Content="..." Padding="8,0" ToolTip.Tip="Select Phaidra attribute from list" />
+          </Grid>
+        </DataTemplate>
+      </ListBox.ItemTemplate>
+    </ListBox>
+    <Grid Grid.Row="4" >
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="*" />
+        <ColumnDefinition Width="*" />
+      </Grid.ColumnDefinitions>
+      <Button Grid.Column="0" Content="Duplicate CSV column" Command="{Binding DuplicateCsvColumnCommand}" Margin="4" HorizontalAlignment="Left" ToolTip.Tip="Duplicate selected CSV column"  />
+      <Button Grid.Column="1" Content="Debug" Command="{Binding DebugCommand}" Margin="4" HorizontalAlignment="Right" ToolTip.Tip="Show debug window" />
+    </Grid>
+    <Button Grid.Row="5" Command="{Binding OKCommand}" Content="OK" Margin="4" />
+  </Grid>
+
+</Window>

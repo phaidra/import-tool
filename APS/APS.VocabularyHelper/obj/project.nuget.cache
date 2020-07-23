@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "gJR1f39Fyz6enJ7OYLPKzyEOGZOIZ5bHYC3Mw7dKMUS5pklQpGAyrjfWni/9/UFnqr7Q58t/LZMW+Qh/ZtVVww==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\p9911\\Downloads\\phaidra-schnittstelle\\APS\\APS.VocabularyHelper\\APS.VocabularyHelper.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\p9911\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\p9911\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512",
+    "C:\\Users\\p9911\\.nuget\\packages\\microsoft.netcore.app.ref\\3.0.0\\microsoft.netcore.app.ref.3.0.0.nupkg.sha512",
+    "C:\\Users\\p9911\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.0.3\\microsoft.netcore.app.host.win-x64.3.0.3.nupkg.sha512",
+    "C:\\Users\\p9911\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.0.0\\microsoft.windowsdesktop.app.ref.3.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

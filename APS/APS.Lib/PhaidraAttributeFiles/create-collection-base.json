@@ -1,0 +1,38 @@
+﻿{
+  "metadata": {
+    "json-ld": {
+      "dce:title": [
+        {
+          "@type": "bf:Title",
+          "bf:mainTitle": [
+            {
+              "@value": ""
+            }
+          ]
+        }
+      ],
+      "dcterms:type": [
+        {
+          "@type": "skos:Concept",
+          "skos:exactMatch": [
+            "https://pid.phaidra.org/vocabulary/GXS7-ENXJ"
+          ],
+          "skos:prefLabel": [
+            {
+              "@language": "eng",
+              "@value": "collection"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "ownerid": "gutlebeni65",
+  "rights": {
+    "department": [
+      {
+        "value": "17515"
+      }
+    ]
+  }
+}

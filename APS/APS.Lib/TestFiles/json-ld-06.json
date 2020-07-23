@@ -1,0 +1,110 @@
+﻿{
+  "metadata": {
+    "json-ld": {
+      "dcterms:type": [
+        {
+          "@type": "skos:Concept",
+          "skos:prefLabel": [
+            {
+              "@value": "image",
+              "@language": "eng"
+            }
+          ],
+          "skos:exactMatch": [ "https://pid.phaidra.org/vocabulary/44TN-P1S0" ]
+        }
+      ],
+      "edm:hasType": [
+        {
+          "@type": "skos:Concept",
+          "skos:prefLabel": [
+            {
+              "@value": "photograph",
+              "@language": "eng"
+            }
+          ],
+          "skos:exactMatch": [ "https://pid.phaidra.org/vocabulary/7CAB-P987" ]
+        }
+      ],
+      "dce:title": [
+        {
+          "@type": "bf:Title",
+          "bf:mainTitle": [
+            {
+              "@value": "My Photograph",
+              "@language": "eng"
+            }
+          ],
+          "bf:subtitle": [
+            {
+              "@value": "My Photograph sub",
+              "@language": "eng"
+            }
+          ]
+        }
+      ],
+      "role:pht": [
+        {
+          "@type": "schema:Person",
+          "schema:givenName": [ { "@value": "Jane" } ],
+          "schema:familyName": [ { "@value": "Doe" } ]
+        }
+      ],
+      "bf:note": [
+        {
+          "@type": "bf:Note",
+          "skos:prefLabel": [
+            {
+              "@value": "Meine Beschreibung",
+              "@language": ""
+            }
+          ]
+        }
+      ],
+      "rdau:P60071": [ "2019-12-11" ],
+      "vra:placeOfCreation": [
+        {
+          "@type": "schema:Place",
+          "skos:prefLabel": [ { "@value": "Grambach" } ],
+          "rdfs:label": [ { "@value": "Grambach--Bavaria--Germany--Europe--World" } ],
+          "skos:exactMatch": [ "http://vocab.getty.edu/tgn/7185561" ],
+          "schema:geo": [
+            {
+              "@type": "schema:GeoCoordinates",
+              "schema:latitude": [ "47.766667" ],
+              "schema:longitude": [ "11.05" ]
+            }
+          ]
+        }
+      ],
+      "dce:subject": [
+        {
+          "@type": "skos:Concept",
+          "skos:prefLabel": [
+            {
+              "@value": "Test, GS",
+              "@language": ""
+            }
+          ]
+        }
+      ],
+      "rdax:P00009": [
+        {
+          "@type": "foaf:Organization",
+          "skos:prefLabel": [
+            {
+              "@value": "ComputergestÃ¼tzte Physik",
+              "@language": "deu"
+            },
+            {
+              "@value": "Computational Physics",
+              "@language": "eng"
+            }
+          ],
+          "skos:exactMatch": [ "https://pid.phaidra.org/univie-org/NGN4-6GFF" ]
+        }
+      ],
+      "ebucore:filename": [ "20191030103255183_448a2d64-bb34-4863-868f-f0a032bacd43_manuell2.jpg" ],
+      "edm:rights": [ "http://rightsstatements.org/vocab/InC/1.0/" ]
+    }
+  }
+}

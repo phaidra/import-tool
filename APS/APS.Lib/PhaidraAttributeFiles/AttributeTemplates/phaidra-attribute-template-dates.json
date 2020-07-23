@@ -1,0 +1,16 @@
+{
+  "template": "",
+  "fields": [
+    {
+      "displayname": "Date",
+      "path": "",
+      "parser":  "datetime"
+    }
+  ],
+  "predicates": [
+    {
+      "predicatename": "dcterms:created",
+      "displayname": "Date created"
+    }
+  ]
+}

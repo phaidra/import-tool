@@ -1,0 +1,1106 @@
+[
+  {
+    "de": "Musik und darstellende Kunst Graz",
+    "en": "",
+    "id": "K8HY-RMBP",
+    "oracle_id": "1",
+    "parent_oracle_id": 0,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Institut 1 Komposition, Musiktheorie, Musikgeschichte und Dirigieren",
+    "en": "",
+    "id": "2KQ5-B3CZ",
+    "oracle_id": "13943",
+    "parent_oracle_id": 1,
+    "org-type": "Institute"
+  },
+  {
+    "de": "Institut 2 Klavier",
+    "en": "",
+    "id": "20DR-27V9",
+    "oracle_id": "13946",
+    "parent_oracle_id": 1,
+    "org-type": "Institute"
+  },
+  {
+    "de": "Institut 3 Saiteninstrumente",
+    "en": "",
+    "id": "4GWY-TQB8",
+    "oracle_id": "13947",
+    "parent_oracle_id": 1,
+    "org-type": "Institute"
+  },
+  {
+    "de": "Institut 4 Blas- und Schlaginstrumente",
+    "en": "",
+    "id": "35H9-69BJ",
+    "oracle_id": "13948",
+    "parent_oracle_id": 1,
+    "org-type": "Institute"
+  },
+  {
+    "de": "Institut 5 Musikpadagogik",
+    "en": "",
+    "id": "CFDV-TADQ",
+    "oracle_id": "13949",
+    "parent_oracle_id": 1,
+    "org-type": "Institute"
+  },
+  {
+    "de": "Institut 6 Kirchenmusik und Orgel",
+    "en": "",
+    "id": "JBRE-981G",
+    "oracle_id": "13950",
+    "parent_oracle_id": 1,
+    "org-type": "Institute"
+  },
+  {
+    "de": "Institut 7 Gesang, Lied, Oratorium",
+    "en": "",
+    "id": "B4DD-9RHF",
+    "oracle_id": "13951",
+    "parent_oracle_id": 1,
+    "org-type": "Institute"
+  },
+  {
+    "de": "Institut 8 Jazz",
+    "en": "",
+    "id": "619W-AK53",
+    "oracle_id": "13952",
+    "parent_oracle_id": 1,
+    "org-type": "Institute"
+  },
+  {
+    "de": "Institut 9 Schauspiel",
+    "en": "",
+    "id": "9BSG-Z7A5",
+    "oracle_id": "13953",
+    "parent_oracle_id": 1,
+    "org-type": "Institute"
+  },
+  {
+    "de": "Institut 10 Musiktheater",
+    "en": "",
+    "id": "77RX-3Y4E",
+    "oracle_id": "13954",
+    "parent_oracle_id": 1,
+    "org-type": "Institute"
+  },
+  {
+    "de": "Institut 11 Buhnengestaltung",
+    "en": "",
+    "id": "ADH1-A9RU",
+    "oracle_id": "13955",
+    "parent_oracle_id": 1,
+    "org-type": "Institute"
+  },
+  {
+    "de": "Institut 12 Oberschutzen",
+    "en": "",
+    "id": "YZV5-RTP6",
+    "oracle_id": "13956",
+    "parent_oracle_id": 1,
+    "org-type": "Institute"
+  },
+  {
+    "de": "Institut 13 Ethnomusikologie",
+    "en": "",
+    "id": "N3RC-0W64",
+    "oracle_id": "13957",
+    "parent_oracle_id": 1,
+    "org-type": "Institute"
+  },
+  {
+    "de": "Institut 14 Musikasthetik",
+    "en": "",
+    "id": "QQRG-A2AE",
+    "oracle_id": "13958",
+    "parent_oracle_id": 1,
+    "org-type": "Institute"
+  },
+  {
+    "de": "Institut 15 Alte Musik und Auffuhrungspraxis",
+    "en": "",
+    "id": "WSQH-YNBR",
+    "oracle_id": "13959",
+    "parent_oracle_id": 1,
+    "org-type": "Institute"
+  },
+  {
+    "de": "Institut 16 Jazzforschung",
+    "en": "",
+    "id": "D2Z0-MH70",
+    "oracle_id": "13960",
+    "parent_oracle_id": 1,
+    "org-type": "Institute"
+  },
+  {
+    "de": "Institut 17 Elektronische Musik und Akustik",
+    "en": "",
+    "id": "WWGS-W0MV",
+    "oracle_id": "13961",
+    "parent_oracle_id": 1,
+    "org-type": "Institute"
+  },
+  {
+    "de": "Universitatsbibliothek",
+    "en": "",
+    "id": "C3Y1-B194",
+    "oracle_id": "13967",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Zentraler Informatikdienst",
+    "en": "",
+    "id": "XJ74-QAJW",
+    "oracle_id": "13972",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Universitatsarchiv",
+    "en": "",
+    "id": "9EPT-FPRZ",
+    "oracle_id": "13973",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Recht",
+    "en": "",
+    "id": "M5E7-NY6X",
+    "oracle_id": "13974",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Controlling & Kostenrechnung",
+    "en": "",
+    "id": "B4DE-FPXS",
+    "oracle_id": "13975",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Personalservice",
+    "en": "",
+    "id": "NPRV-BV26",
+    "oracle_id": "13976",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Studien- und Prufungsabteilung",
+    "en": "",
+    "id": "SNSF-4MW6",
+    "oracle_id": "13977",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Finanzbuchhaltung",
+    "en": "",
+    "id": "AY00-VES8",
+    "oracle_id": "13978",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Infrastruktur",
+    "en": "",
+    "id": "8FR5-WXRR",
+    "oracle_id": "13980",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Buro fur Projektmanagement",
+    "en": "",
+    "id": "VFF4-ADEE",
+    "oracle_id": "13993",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Abteilung fur internationale Beziehungen",
+    "en": "",
+    "id": "98SV-WF65",
+    "oracle_id": "13994",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Offentlichkeitsarbeit",
+    "en": "",
+    "id": "RV9C-2J16",
+    "oracle_id": "13995",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Buro fur Wettbewerbe",
+    "en": "",
+    "id": "892Q-M0JC",
+    "oracle_id": "13996",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Veranstaltungszentrum",
+    "en": "",
+    "id": "KD5Z-V16S",
+    "oracle_id": "13997",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Qualitatsmanagement",
+    "en": "",
+    "id": "280F-3WK0",
+    "oracle_id": "13999",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Personalentwicklung",
+    "en": "",
+    "id": "B4XF-EEBJ",
+    "oracle_id": "14002",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Buro des Vizerektors fur Lehre",
+    "en": "",
+    "id": "4D7T-PNWF",
+    "oracle_id": "14004",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Studiendekan",
+    "en": "",
+    "id": "QCEV-QXX0",
+    "oracle_id": "14006",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Curriculakommission III - Dirigieren, Komposition und Musiktheorie",
+    "en": "",
+    "id": "23WP-X2EN",
+    "oracle_id": "14018",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Curriculakommission V - Instrumental(Gesangs)padagogik (IGP)",
+    "en": "",
+    "id": "BBQX-T330",
+    "oracle_id": "14020",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Curriculakommission VIII - Katholische und Evangelische Kirchenmusik",
+    "en": "",
+    "id": "3NJV-65S5",
+    "oracle_id": "14028",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Curriculakommission I - Buhnengestaltung",
+    "en": "",
+    "id": "YA8A-7HEJ",
+    "oracle_id": "14029",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Curriculakommission VII - Jazz",
+    "en": "",
+    "id": "KJ9F-BRHE",
+    "oracle_id": "14030",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Curriculakommission II - Darstellende Kunst (Schauspiel)",
+    "en": "",
+    "id": "W0JP-MY8V",
+    "oracle_id": "14031",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Curriculakommission XI - Elektrotechnik-Toningenieur",
+    "en": "",
+    "id": "2CDG-NK8H",
+    "oracle_id": "14032",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Curriculakommission X - Wissenschaftliches Doktoratsstudium (PhD)",
+    "en": "",
+    "id": "78XR-HR4M",
+    "oracle_id": "14033",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Vertretungen",
+    "en": "",
+    "id": "QH0P-07E5",
+    "oracle_id": "14041",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Betriebsrat fur allgemeines Universitatspersonal",
+    "en": "",
+    "id": "BX5W-A5C8",
+    "oracle_id": "14043",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Arbeitskreis fur Gleichbehandlungsfragen",
+    "en": "",
+    "id": "8C46-AP20",
+    "oracle_id": "14045",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Hochschulerinnen- und Hochschulerschaft an der KUG",
+    "en": "",
+    "id": "JS70-V3JG",
+    "oracle_id": "14046",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Senat",
+    "en": "",
+    "id": "45NH-85QM",
+    "oracle_id": "14049",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Rektorat",
+    "en": "",
+    "id": "GMVX-C34J",
+    "oracle_id": "14072",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Universitatsrat",
+    "en": "",
+    "id": "8C2M-8Z0B",
+    "oracle_id": "14073",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Buro der Vizerektorin fur Kunst",
+    "en": "",
+    "id": "8YPM-CDJJ",
+    "oracle_id": "14083",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Curriculakommission IV - Gesang",
+    "en": "",
+    "id": "90SE-HG11",
+    "oracle_id": "14118",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Curriculakommission VI - Instrumentalstudium",
+    "en": "",
+    "id": "13NW-8D1V",
+    "oracle_id": "14121",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Curriculakommission IX - Lehramtsstudium",
+    "en": "",
+    "id": "RE86-RY0V",
+    "oracle_id": "14128",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Zentrum fur Genderforschung",
+    "en": "",
+    "id": "Q580-VB9S",
+    "oracle_id": "14194",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Studienangebot",
+    "en": "",
+    "id": "F3VQ-8S8T",
+    "oracle_id": "14195",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Curriculakonferenz",
+    "en": "",
+    "id": "DY79-ZJY9",
+    "oracle_id": "14416",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Betriebsrat fur kunstlerisches und wissenschaftliches Personal",
+    "en": "",
+    "id": "SBK4-QMK6",
+    "oracle_id": "14557",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Studium",
+    "en": "",
+    "id": "1XZJ-554Q",
+    "oracle_id": "14696",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Bewerber/innen Account anlegen",
+    "en": "",
+    "id": "MH62-T83B",
+    "oracle_id": "14870",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Curriculakommissionen",
+    "en": "",
+    "id": "HZ2W-9X4A",
+    "oracle_id": "14872",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Schiedskommission",
+    "en": "",
+    "id": "XTWR-TA2Z",
+    "oracle_id": "14935",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Buro RektorIn",
+    "en": "",
+    "id": "WN4G-3HXT",
+    "oracle_id": "15030",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "OH-Buro",
+    "en": "",
+    "id": "K401-WMYH",
+    "oracle_id": "15037",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Curriculakommission XII - Musikologie",
+    "en": "",
+    "id": "FVN9-0RBG",
+    "oracle_id": "15442",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Studienvertretungen",
+    "en": "",
+    "id": "6E7V-T0ZX",
+    "oracle_id": "15745",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Universitatsvertretung",
+    "en": "",
+    "id": "WVB3-V5GP",
+    "oracle_id": "15796",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Referate",
+    "en": "",
+    "id": "CHQ9-JHG6",
+    "oracle_id": "15867",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Curriculakommission XIII - Kunstlerisch-wissenschaftliches Doktoratsstudium (Dr. artium)",
+    "en": "",
+    "id": "T9WB-ZB83",
+    "oracle_id": "15959",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Referat fur Bildungspolitik",
+    "en": "",
+    "id": "26KP-TYCB",
+    "oracle_id": "16186",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Referat fur Sozialpolitik und Gesundheit",
+    "en": "",
+    "id": "KBK9-Q5WW",
+    "oracle_id": "16188",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Referat fur wirtschaftliche Angelegenheiten (Wirtschaftsreferat)",
+    "en": "",
+    "id": "NZRC-A90F",
+    "oracle_id": "16190",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Referat fur allgemeine Beratung",
+    "en": "",
+    "id": "3PWT-TNSC",
+    "oracle_id": "16194",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Referat fur Offentlichkeitsarbeit (Pressereferat)",
+    "en": "",
+    "id": "XPTW-SZNE",
+    "oracle_id": "16223",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Studienvertretung Elektrotechnik-Toningenieur",
+    "en": "",
+    "id": "7G1Y-BEZR",
+    "oracle_id": "16267",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Beauftragte Personen der KUG",
+    "en": "",
+    "id": "YTFG-EQ2T",
+    "oracle_id": "16318",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Arbeitsmedizinische Betreuung",
+    "en": "",
+    "id": "707T-DCE1",
+    "oracle_id": "16323",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Sicherheitsvertrauenpersonen",
+    "en": "",
+    "id": "KGDV-3EQG",
+    "oracle_id": "16324",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Brandschutzbeauftragte/r",
+    "en": "",
+    "id": "V1BS-BME1",
+    "oracle_id": "16325",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "ErsthelferInnen",
+    "en": "",
+    "id": "T9R0-AYB0",
+    "oracle_id": "16326",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Extern betreuende Einheiten",
+    "en": "",
+    "id": "P9C3-PSS5",
+    "oracle_id": "16488",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Technische Universitat Graz",
+    "en": "",
+    "id": "9SMP-N2M6",
+    "oracle_id": "16496",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Musikologie",
+    "en": "",
+    "id": "ERS0-EJEZ",
+    "oracle_id": "16511",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Universitat fur Musik und darstellende Kunst Wien",
+    "en": "",
+    "id": "2A3B-QSE2",
+    "oracle_id": "16832",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Career Service Center",
+    "en": "",
+    "id": "W9D9-CEVC",
+    "oracle_id": "17122",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Johann-Joseph-Fux-Konservatorium des Landes Steiermark",
+    "en": "",
+    "id": "NMCE-H7HH",
+    "oracle_id": "17180",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Studienvertretung Jazz",
+    "en": "",
+    "id": "KVYT-826H",
+    "oracle_id": "17181",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Studienvertretung Buhnengestaltung",
+    "en": "",
+    "id": "822T-TRTG",
+    "oracle_id": "17182",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Studienvertretung Musikerziehung/Instrumentalmusikerziehung (Lehramt)",
+    "en": "",
+    "id": "G66H-KQVE",
+    "oracle_id": "17183",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Studienvertretung Musikologie",
+    "en": "",
+    "id": "SF2R-ATW9",
+    "oracle_id": "17184",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Doktoratsschule fur das kunstlerische Doktoratsstudium",
+    "en": "",
+    "id": "P5EY-6P7R",
+    "oracle_id": "17271",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Doktoratsschule fur das wissenschaftliche Doktoratsstudium",
+    "en": "",
+    "id": "MK7B-NBMM",
+    "oracle_id": "17272",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Kunstlerisch-wissenschaftliche Einheiten",
+    "en": "",
+    "id": "F8AJ-ZMPV",
+    "oracle_id": "17331",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Leitungsorgane",
+    "en": "",
+    "id": "RXDX-PHCC",
+    "oracle_id": "17339",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Dienstleistungseinrichtungen",
+    "en": "",
+    "id": "S2PX-HS3D",
+    "oracle_id": "17349",
+    "parent_oracle_id": 1,
+    "org-type": "Division"
+  },
+  {
+    "de": "Studiencenter",
+    "en": "",
+    "id": "BK04-FZ98",
+    "oracle_id": "17350",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Zentralen Serviceeinrichtungen",
+    "en": "",
+    "id": "FN95-97FJ",
+    "oracle_id": "17351",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Buhnentechnik/Tonstudio",
+    "en": "",
+    "id": "HQBM-98PC",
+    "oracle_id": "17352",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Immobilien/Instandhaltung",
+    "en": "",
+    "id": "GHHG-FF17",
+    "oracle_id": "17357",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Logistik/Beschaffung/Betrieb",
+    "en": "",
+    "id": "E8Y8-S5T5",
+    "oracle_id": "17358",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Sponsoring & Fundraising",
+    "en": "",
+    "id": "H9MV-FAKZ",
+    "oracle_id": "17407",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "RektorIn",
+    "en": "",
+    "id": "GR3J-Q8CE",
+    "oracle_id": "17408",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Vizerektor fur Lehre",
+    "en": "",
+    "id": "NP5D-2E5A",
+    "oracle_id": "17409",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Vizerektorin fur Forschung",
+    "en": "",
+    "id": "TZZ1-F92V",
+    "oracle_id": "17410",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Vizerektorin fur Kunst",
+    "en": "",
+    "id": "B5A4-3QSU",
+    "oracle_id": "17411",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Universitatsbibliothek, -archiv, Musikinstrumentensammlung",
+    "en": "",
+    "id": "RNG1-YQS8",
+    "oracle_id": "17412",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Musikinstrumentensammlung",
+    "en": "",
+    "id": "WG56-APJG",
+    "oracle_id": "17413",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Behindertenbeauftragte/r",
+    "en": "",
+    "id": "TP8N-0XGC",
+    "oracle_id": "17428",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Lehrlingskoordinator/in",
+    "en": "",
+    "id": "3ZB6-HZ5Q",
+    "oracle_id": "17429",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Sicherheitsfachkraft",
+    "en": "",
+    "id": "8JY2-AQTH",
+    "oracle_id": "17430",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "BrandschutzwartInnen",
+    "en": "",
+    "id": "49BT-FBG4",
+    "oracle_id": "17433",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Referat fur Organisation",
+    "en": "",
+    "id": "8YAP-APWV",
+    "oracle_id": "17451",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Kinderbetreuungsbeauftragte/r",
+    "en": "",
+    "id": "9ZHX-4YKX",
+    "oracle_id": "17452",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Abfallbeauftragte/r",
+    "en": "",
+    "id": "HGXX-28E9",
+    "oracle_id": "17453",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Vizerektorin fur Ressourcen",
+    "en": "",
+    "id": "EMZD-RVZ4",
+    "oracle_id": "17475",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Behindertenvertrauensperson",
+    "en": "",
+    "id": "HTEB-7C3Q",
+    "oracle_id": "17494",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Datenschutzbeauftragte/r",
+    "en": "",
+    "id": "D6Q0-CC9D",
+    "oracle_id": "17515",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Stabsabteilungen",
+    "en": "",
+    "id": "HN90-9NQB",
+    "oracle_id": "17517",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Aufzugs- und HebeanlagenwarterInnen",
+    "en": "",
+    "id": "8VCY-AY89",
+    "oracle_id": "17518",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Alpen-Adria-Universitat Klagenfurt",
+    "en": "",
+    "id": "ERF7-J5W4",
+    "oracle_id": "17522",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Karl-Franzens-Universitat Graz",
+    "en": "",
+    "id": "KEHT-YHHU",
+    "oracle_id": "17523",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Kirchliche Padagogische Hochschule Graz",
+    "en": "",
+    "id": "NK0Z-62N5",
+    "oracle_id": "17524",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Padagogische Hochschule Burgenland",
+    "en": "",
+    "id": "ECGW-FEFU",
+    "oracle_id": "17525",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Padagogische Hochschule Karnten",
+    "en": "",
+    "id": "R79K-XN4Q",
+    "oracle_id": "17526",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Padagogische Hochschule Steiermark",
+    "en": "",
+    "id": "92BX-TP3A",
+    "oracle_id": "17527",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Referat fur Gesellschafts- und Gleichbehandlungsfragen",
+    "en": "",
+    "id": "18AF-4JNT",
+    "oracle_id": "17540",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Welcome Center",
+    "en": "",
+    "id": "EAB9-EN0P",
+    "oracle_id": "17541",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Buro der Vizerektorin fur Ressourcen",
+    "en": "",
+    "id": "X8K7-MK4B",
+    "oracle_id": "17542",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Buro der Vizerektorin fur Forschung",
+    "en": "",
+    "id": "2NKB-X9TY",
+    "oracle_id": "17543",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Referat fur Oberschutzen",
+    "en": "",
+    "id": "8QFR-228F",
+    "oracle_id": "17561",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Orchestermanagement",
+    "en": "",
+    "id": "6T56-FRYV",
+    "oracle_id": "17581",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Kooperationslehre (KUWI)",
+    "en": "",
+    "id": "GDWZ-F9CA",
+    "oracle_id": "17601",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Studienvertretung Gesang",
+    "en": "",
+    "id": "8P4A-0TGU",
+    "oracle_id": "17621",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Curriculaarbeitsgruppe Curriculaarbeitsgruppe \"Alte Musik\"",
+    "en": "",
+    "id": "GJKE-3CS8",
+    "oracle_id": "17641",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Risikomanagement",
+    "en": "",
+    "id": "D1B3-6EKW",
+    "oracle_id": "17648",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Recruitment",
+    "en": "",
+    "id": "3JM6-1FVN",
+    "oracle_id": "17668",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  },
+  {
+    "de": "Referat fur Datenschutz",
+    "en": "",
+    "id": "J6ZK-WSH2",
+    "oracle_id": "17688",
+    "parent_oracle_id": 1,
+    "org-type": "FOAF.Organization"
+  }
+]

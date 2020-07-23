@@ -1,0 +1,26 @@
+{
+  "template": {
+    "@type": "skos:Concept",
+    "skos:prefLabel": [
+      {
+        "@value": "",
+        "@language": "eng"
+      }
+    ],
+    "skos:exactMatch": [
+      ""
+    ]
+  },
+  "fields": [
+    {
+      "displayname": "Value",
+      "path": "skos:prefLabel[0].@value"
+    }
+  ],
+  "predicates": [
+    {
+      "predicatename": "rdau:P60048",
+      "displayname": "Carrier type"
+    }
+  ]
+}

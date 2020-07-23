@@ -1,0 +1,77 @@
+{
+  "template": {
+    "@type": "schema:Person",
+    "schema:givenName": [
+      {
+        "@value": ""
+      }
+    ],
+    "schema:familyName": [
+      {
+        "@value": ""
+      }
+    ],
+    "skos:exactMatch": [
+      {
+        "@type": "ids:wikidata",
+        "@value": ""
+      }
+    ],
+    "schema:affiliation": [
+      {
+        "@type": "schema:Organization",
+        "schema:name": [
+          {
+            "@value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "fields": [
+    {
+      "displayname": "Nachname",
+      "path": "schema:givenName[0].@value"
+    },
+    {
+      "displayname": "Vorname",
+      "path": "schema:familyName[0].@value"
+    },
+    {
+      "displayname": "Wikidata-ID",
+      "extendedfilter": [
+        {
+          "type": "select",
+          "path": "skos:exactMatch"
+        },
+        {
+          "type": "filterarray",
+          "attribute": "@type",
+          "value": "ids:wikidata"
+        },
+        {
+          "type": "select",
+          "path": "@value"
+        }
+      ]
+    },
+    {
+      "displayname": "Affiliation",
+      "path": "schema:affiliation[0].schema:name[0].@value"
+    }
+  ],
+  "predicates": [
+    {
+      "predicatename": "role:pht",
+      "displayname": "FotografIn"
+    },
+    {
+      "predicatename": "role:aut",
+      "displayname": "Autor"
+    },
+    {
+      "predicatename": "role:cmp",
+      "displayname": "KomponistIn"
+    }
+  ]
+}

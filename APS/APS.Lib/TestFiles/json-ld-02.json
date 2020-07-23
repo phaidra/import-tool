@@ -1,0 +1,113 @@
+﻿{
+  "alerts": [],
+  "metadata": {
+    "JSON-LD": {
+      "bf:note": [
+        {
+          "@type": "bf:Note",
+          "skos:prefLabel": [
+            {
+              "@language": "",
+              "@value": "Sommer, Sonne, Begegnung, gemeinsames Musizieren und Lernen- das waren die Beweggründe, warum sich im Juni des Vorjahres Studenten zu einem internationalen Jazz-Meeting in Graz trafen. \"Jazz at it´s best\" bringt die Wiedergabe eines Konzertes dieses Treffens im Grazer MUMUTH Mitschnitt eines Studentenkonzerts  im MUMUTH, 06.2012 IASJ-Meeting"
+            }
+          ]
+        },
+        {
+          "@type": "bf:Note",
+          "skos:prefLabel": [
+            {
+              "@language": "",
+              "@value": "BETEILIGT:\n\nInterviewpartnerInnen: Franz Praßl Marina Meuser-Kasimir Marco Cimagalli, Conservatorio di Santa Cecilia Suor Maria Dolores Aguirre, Kloster Santa Cecilia, Rom Nino Albarosa, Kloster Santa Cecilia, Rom Vincenzo de Gregorio, Päpstliches Institut für Kirchenmusik\/PIMS Wolf Notker, Abt-Primas, Sant'Anselmo Rom\n"
+            }
+          ]
+        }
+      ],
+      "dce:subject": [
+        {
+          "@type": "skos:Concept",
+          "skos:prefLabel": [
+            {
+              "@language": "",
+              "@value": "Indonesia,Java,Solo"
+            }
+          ]
+        }
+      ],
+      "dce:title": [
+        {
+          "@type": "bf:Title",
+          "bf:mainTitle": [
+            {
+              "@value": "Logondhang Eling2 p5_Bonang_Sagimin & Mardi_Allgemeine Aufnahme"
+            }
+          ],
+          "bf:subtitle": [
+            {
+              "@value": "Salzburger Festspiele 2013 [Aufzeichnung 3sat]"
+            }
+          ]
+        }
+      ],
+      "dcterms:created": [ "2004-02-01\/2005-02-08" ],
+      "dcterms:type": [
+        {
+          "@type": "skos:Concept",
+          "skos:exactMatch": [ "https:\/\/pid.phaidra.org\/vocabulary\/8YB5-1M0J" ],
+          "skos:prefLabel": [
+            {
+              "@language": "eng",
+              "@value": "image"
+            }
+          ]
+        }
+      ],
+      "ebucore:filename": [ "trash80_-_while-you-were-sleeping-live.mp3" ],
+      "ebucore:hasMimeType": [ "audio\/mpeg" ],
+      "edm:rights": [ "http:\/\/rightsstatements.org\/vocab\/InC\/1.0\/" ],
+      "phaidra:dateAccessioned": [ "2004-02-01" ],
+      "rdax:P00009": [
+        {
+          "@type": "foaf:Organization",
+          "skos:exactMatch": [ "https:\/\/pid.phaidra.org\/univie-org\/V9PN-Y31H" ],
+          "skos:prefLabel": [
+            {
+              "@language": "deu",
+              "@value": "Zentraler Informatikdienst"
+            },
+            {
+              "@language": "eng",
+              "@value": "Vienna University Computer Center"
+            }
+          ]
+        }
+      ],
+      "role:pht": [
+        {
+          "@type": "schema:Person",
+          "schema:familyName": [
+            {
+              "@value": "Blasta"
+            }
+          ],
+          "schema:givenName": [
+            {
+              "@value": "Rasta"
+            }
+          ]
+        }
+      ],
+      "vra:placeOfCreation": [
+        {
+          "@type": "schema:Place",
+          "skos:prefLabel": [
+            {
+              "@language": "",
+              "@value": "MUMUTH"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "status": 200
+}
