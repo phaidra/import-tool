@@ -11,6 +11,11 @@
         "@value": ""
       }
     ],
+    "schema:name": [
+      {
+        "@value": ""
+      }
+    ],
     "skos:exactMatch": [
       {
         "@type": "ids:wikidata",
@@ -36,6 +41,10 @@
     {
       "displayname": "Vorname",
       "path": "schema:familyName[0].@value"
+    },
+    {
+      "displayname": "Name",
+      "path": "schema:name[0].@value"
     },
     {
       "displayname": "Wikidata-ID",
