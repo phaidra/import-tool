@@ -36,13 +36,26 @@ namespace APS.Lib
 
                     if (oracleIdVal != null)
                     {
-                        metadata.Add(new JProperty("rights", new JObject
+                        if (oracleIdVal.Value<string>().Equals("A-1"))
+                        {
+                            metadata.Add(new JProperty("rights", new JObject
+                            (
+                                new JProperty("faculty", new JArray
+                                (
+                                    new JObject(new JProperty("value", oracleIdVal.Value<string>()))
+                                )
+                            ))));
+                        }
+                        else
+                        {
+                            metadata.Add(new JProperty("rights", new JObject
                             (
                                 new JProperty("department", new JArray
                                 (
                                     new JObject(new JProperty("value", oracleIdVal.Value<string>()))
                                 )
                             ))));
+                        }
                     }
 
                     /*
