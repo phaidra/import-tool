@@ -40,6 +40,7 @@ namespace APS.Lib.Import
         public PhaidraClient(string url, string searchEngineUrl, string username, string password)
         {
             _client = new HttpClient();
+            _client.Timeout = TimeSpan.FromHours(6);
             _url = (url ?? "").TrimEnd('/') + '/';
             _searchEngineUrl = (searchEngineUrl ?? "").TrimEnd('/') + '/';
             _username = username;
